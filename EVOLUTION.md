@@ -19,3 +19,4 @@ by more than 0.004 accuracy (constitution: `accept_margin`).
 | 5 | self-train (verified 6 + hard-mined 6, train 50 steps) | 0.333 | rolled back | incumbent kept |
 | 6 | self-train (verified 12 + hard-mined 0, train 50 steps) | 0.300 | rolled back | incumbent kept |
 | 7 | self-train (verified 44 + hard-mined 16, train 180 steps) | 0.340 | rolled back | incumbent kept |
+| 8 | self-train (verified 120 + hard-mined 46, train 150 steps) | 0.324 | rolled back | incumbent kept |

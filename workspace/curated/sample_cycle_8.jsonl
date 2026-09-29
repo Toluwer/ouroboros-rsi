@@ -1,0 +1,60 @@
+{"q": "Where are people likely to find food?", "gold": "B", "gen": "supermarket (B)", "source": "verified-self"}
+{"q": "What might a kid do with his friend before going to play?", "gold": "E", "gen": "meet (E)", "source": "verified-self"}
+{"q": "What is a person who is well educated?", "gold": "B", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "Ben was an alcoholic and was in an accident.  Because of his mistake, he spent 8 years somewhere. Wh", "gold": "A", "gen": "jail (A)", "source": "verified-self"}
+{"q": "Ben was an alcoholic and was in an accident.  Because of his mistake, he spent 8 years somewhere. Wh", "gold": "A", "gen": "prison (A)", "source": "verified-self"}
+{"q": "Where do you buy tickets at a ticket booth for games/", "gold": "D", "gen": "fairgrounds (D)", "source": "verified-self"}
+{"q": "A soccer field that is not contained in a building would be where?", "gold": "D", "gen": "outside (D)", "source": "verified-self"}
+{"q": "Letters are sometimes delivered by hand through one of these.", "gold": "C", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "John came to see Sam and Sam kicked him out.  Sam didn't like company.  He prefered what?", "gold": "C", "gen": "solitude (C)", "source": "verified-self"}
+{"q": "If somebody likes temperatures cool, they might have more than one electric fan where?", "gold": "A", "gen": "home (A)", "source": "verified-self"}
+{"q": "Sky diving scared him, once they jumped out of the plane he began losing consciousness while what?", "gold": "E", "gen": "falling down (E)", "source": "verified-self"}
+{"q": "The president had to make a decision regarding the hate attack on his country, what did he do?", "gold": "A", "gen": "wage war (A)", "source": "verified-self"}
+{"q": "What's it called when you have seen something through an eyepiece?", "gold": "A", "gen": "sights (A)", "source": "verified-self"}
+{"q": "He had done a great job with the scary decorations, they were completely what?", "gold": "E", "gen": "horrible (E)", "source": "verified-self"}
+{"q": "He had done a great job with the scary decorations, they were completely what?", "gold": "E", "gen": "hideous (E)", "source": "verified-self"}
+{"q": "If you did well on the test, you might get an A as a what?", "gold": "D", "gen": "school grade (D)", "source": "verified-self"}
+{"q": "If you tell you boss your suffering from boredom they'll likely tell you to get back to what?", "gold": "E", "gen": "work (E)", "source": "verified-self"}
+{"q": "What is a good result of jogging?", "gold": "C", "gen": "improved health (C)", "source": "verified-self"}
+{"q": "What is done to wood to attach something to it?", "gold": "A", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "Where is a fox likely to be caught?", "gold": "C", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "Where do you put a new dining table?", "gold": "E", "gen": "house (E)", "source": "verified-self"}
+{"q": "Sometimes fighting inflation isn't even what, because it is so negligible?", "gold": "B", "gen": "not noticeable (B)", "source": "verified-self"}
+{"q": "What is likely to have more than one level in a city?", "gold": "C", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "Where is likely to have a lot of fire extinguishers?", "gold": "B", "gen": "hospital (B)", "source": "verified-self"}
+{"q": "Where would someone learn to play an upright piano?", "gold": "C", "gen": "music class (C)", "source": "verified-self"}
+{"q": "What is necessary for learning by yourself?", "gold": "C", "gen": "study (C)", "source": "verified-self"}
+{"q": "John and Jane were a couple.  They were dating for a while and wanted to be together for even longer", "gold": "B", "gen": "plan to marry (B)", "source": "verified-self"}
+{"q": "What emotion does getting paid lead to?", "gold": "C", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "Who is likely going in to a market?", "gold": "C", "gen": "that you (C)", "source": "verified-self"}
+{"q": "What is a characteristic of thin glass?", "gold": "A", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "What do you get for not moving your car during the required time?", "gold": "E", "gen": "ticket (E)", "source": "verified-self"}
+{"q": "Bob's feet hurt from running barefoot on the hot pavement.  I lost his shoes, didn't know where they", "gold": "D", "gen": "city block (D)", "source": "verified-self"}
+{"q": "Where would you be able to hear a bassoon played in an unpleasing fashion?", "gold": "E", "gen": "high school band (E)", "source": "verified-self"}
+{"q": "John loved competing because he was very competitive.  He liked being about to divide people into wh", "gold": "A", "gen": "winners and losers (A)", "source": "verified-self"}
+{"q": "The game was on sale.  I got it then because it was usually what?", "gold": "E", "gen": "expensive (E)", "source": "verified-self"}
+{"q": "What could a massive building be if it is not constructed well?", "gold": "A", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "Where could a printer be used by thousands of people?", "gold": "A", "gen": "school (A)", "source": "verified-self"}
+{"q": "What could prevent someone from buying chistmas presents?", "gold": "B", "gen": "lack of money (B)", "source": "verified-self"}
+{"q": "What is the hope of playing sports without competition?", "gold": "B", "gen": "have fun (B)", "source": "verified-self"}
+{"q": "They moved out of the city to have a master bedroom, what kind of home did they seek?", "gold": "B", "gen": "suburban home (B)", "source": "verified-self"}
+{"q": "What could you add a line to?", "gold": "B", "gen": "graph (B)", "source": "verified-self"}
+{"q": "Joe bought a ficus.  He thought it would look good in what part of his home?", "gold": "A", "gen": "family room (A)", "source": "verified-self"}
+{"q": "Sarah wanted to by a new rug.  Ink spilled onto her old one.  Really, she didn't know what that thin", "gold": "C", "gen": "desk (C)", "source": "verified-self"}
+{"q": "When people discover something new while chatting with friends, why are they likely to continue talk", "gold": "E", "gen": "understanding (E)", "source": "verified-self"}
+{"q": "How can one's views change after learning about science?", "gold": "E", "gen": "see things differently (E)", "source": "verified-self"}
+{"q": "Traveling underwater has many dangers, such as low visibility causing what?", "gold": "A", "gen": "disorientation (A)", "source": "verified-self"}
+{"q": "Where are people likely to stand at an intersection?", "gold": "C", "gen": "street corner (C)", "source": "verified-self"}
+{"q": "Janet knew she was dying from her injuries because she could feel herself doing what?", "gold": "B", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "An expressway can suffer from traffic, this traffic gets worse the closer you get to any what?", "gold": "C", "gen": "american city (C)", "source": "verified-self"}
+{"q": "Where are there more telephone booths?", "gold": "B", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "John moved away from his family.  He was a bit upset that he had to do it, but he needed the job.  S", "gold": "C", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "James complained that Alexa's electric guitar was too loud and he couldn't get any work done at home", "gold": "B", "gen": "music shop (B)", "source": "verified-self"}
+{"q": "What can someone feeling happiness fall into?", "gold": "B", "gen": "happiness (B)", "source": "verified-self"}
+{"q": "How might a person address someone who is leaving?", "gold": "B", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "What does a chef do when working in the evening?", "gold": "A", "gen": "cook dinner (A)", "source": "verified-self"}
+{"q": "What would happen to a person if his or her money is stolen?", "gold": "B", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "The people in class were instructed to brainstorm ideas, how would they use their minds for this?", "gold": "D", "gen": "think creatively (D)", "source": "verified-self"}
+{"q": "Someone lacking immortality will one day be?", "gold": "C", "gen": "dead (C)", "source": "verified-self"}
+{"q": "After his mother saw his report card he knew he was going to be doing housework, what could have pre", "gold": "E", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "Glass that hasn't been treated to be extra strong is what?", "gold": "B", "gen": "fragile (B)", "source": "verified-self"}
