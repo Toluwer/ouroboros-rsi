@@ -3,8 +3,8 @@
   "k": 4,
   "max_new_tokens": 90,
   "gen_questions": 160,
-  "replay": 160,
-  "train_steps": 150,
-  "lr": 1.5e-05,
+  "replay": 320,
+  "train_steps": 120,
+  "lr": 8e-06,
   "cooldown_s": 60
 }
