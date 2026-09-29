@@ -22,3 +22,4 @@ by more than 0.004 accuracy (constitution: `accept_margin`).
 | 8 | self-train (verified 120 + hard-mined 46, train 150 steps) | 0.324 | rolled back | incumbent kept |
 | 9 | self-train (verified 125 + hard-mined 40, train 120 steps) | 0.396 | accepted | `ouroboros-v2` (+0.032) |
 | 10 | self-train (verified 90 + hard-mined 23, train 120 steps) | 0.380 | rolled back | incumbent kept |
+| 11 | self-train (verified 132 + hard-mined 37, train 120 steps) | 0.348 | rolled back | incumbent kept |
