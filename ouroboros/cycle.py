@@ -215,8 +215,12 @@ def _save_job(job: dict) -> None:
         json.dump(job, f)
 
 
-def _elapsed_gen_estimate(fast: bool, genome: dict) -> float:
-    return 90 if fast else genome["gen_questions"] * 2.6 + 60
+def _elapsed_gen_estimate(fast: bool, genome: dict, mode: str = "answer") -> float:
+    if fast:
+        return 90
+    if mode == "rationale":
+        return genome["gen_questions"] * 2.6 + 60
+    return genome["gen_questions"] * 0.9 + 100
 
 
 def run_cycle(fast: bool = False, budget_s: float | None = None, log=print) -> list[dict]:
@@ -242,7 +246,8 @@ def run_cycle(fast: bool = False, budget_s: float | None = None, log=print) -> l
 
         if job is None:
             rem = remaining()
-            need = _elapsed_gen_estimate(fast, genome) + 120
+            mode = constitution["immutable"].get("selfgen_mode", "answer")
+            need = _elapsed_gen_estimate(fast, genome, mode) + 120
             if rem is not None and rem < need:
                 log(f"[cycle {cycle_id}] not enough budget to start "
                     f"({rem:.0f}s < {need:.0f}s needed); stopping here")
@@ -307,11 +312,11 @@ def run_cycle(fast: bool = False, budget_s: float | None = None, log=print) -> l
 
         ckpt = None
         if accepted:
-            n_accepted = 1  # phase 0 counts as v0
-            with open(config.ledger_path(), encoding="utf-8") as f:
-                n_accepted += sum(1 for line in f if line.strip()
-                                  and json.loads(line).get("accepted"))
-            ckpt = config.W_CHECKPOINTS / f"ouroboros-v{n_accepted}"
+            # next version number: highest existing + 1 (collision-free even
+            # against historical naming quirks; v0 is the operator baseline)
+            existing = list(config.W_CHECKPOINTS.glob("ouroboros-v*"))
+            n_ver = max((_ver(p.name) for p in existing), default=0) + 1
+            ckpt = config.W_CHECKPOINTS / f"ouroboros-v{n_ver}"
             if _partial_path(cycle_id).exists():
                 if ckpt.exists():
                     shutil.rmtree(ckpt)
@@ -406,7 +411,9 @@ def run_cycle(fast: bool = False, budget_s: float | None = None, log=print) -> l
         state = config.load_state()
 
         rem = remaining()
-        if rem is None or rem < _elapsed_gen_estimate(fast, genome) + 180:
+        if rem is None or rem < _elapsed_gen_estimate(
+                fast, genome,
+                constitution["immutable"].get("selfgen_mode", "answer")) + 180:
             break
 
     return summaries
