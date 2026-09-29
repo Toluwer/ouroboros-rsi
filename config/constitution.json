@@ -1,0 +1,31 @@
+{
+  "immutable": {
+    "base_model": "openai-community/gpt2",
+    "task": "commonsense_qa",
+    "train_dataset": "tau/commonsense_qa (train split)",
+    "eval_dataset": "tau/commonsense_qa (validation split, fixed subset)",
+    "eval_n": 250,
+    "eval_seed": 173,
+    "eval_split": "validation",
+    "eval_format": "direct",
+    "eval_decoding": "greedy",
+    "accept_margin": 0.004,
+    "batch_size": 8,
+    "max_seq_len": 256,
+    "max_checkpoints_retained": 4,
+    "max_new_tokens_cap": 128
+  },
+  "bounds": {
+    "temperature": [0.3, 1.2],
+    "k": [2, 6],
+    "max_new_tokens": [48, 128],
+    "gen_questions": [40, 160],
+    "rationalize_cap": [10, 80],
+    "replay": [80, 320],
+    "train_steps": [120, 400],
+    "lr": [5e-06, 5e-05],
+    "cooldown_s": [30, 900]
+  },
+  "mutation_every": 5,
+  "notes": "The constitution is human-authored and immutable at runtime. bounds are hard limits for every genome mutation; immutable entries (base model, task, evaluation protocol, gating rule) can never be changed by the daemon. Any change to this file requires a human commit."
+}

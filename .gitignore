@@ -1,0 +1,11 @@
+# caches and heavy artifacts stay local; the repo carries code, ledgers,
+# evaluation reports, genome, curated data samples, and the evolution log
+.hf_cache/
+workspace/checkpoints/
+workspace/generations/
+workspace/logs/daemon.out
+workspace/curated/cycle_*
+__pycache__/
+*.pyc
+.venv/
+nohup.out

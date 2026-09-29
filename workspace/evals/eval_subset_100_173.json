@@ -1,0 +1,2602 @@
+[
+ {
+  "question": "After working on the car, what did it end up doing?",
+  "choices": [
+   [
+    "A",
+    "going too fast"
+   ],
+   [
+    "B",
+    "last several years"
+   ],
+   [
+    "C",
+    "honk the horn"
+   ],
+   [
+    "D",
+    "go fast"
+   ],
+   [
+    "E",
+    "start running"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "Joe's cat smelled something delicious and jumped into this, causing him to panic and fear for its life. Where might it have jumped?",
+  "choices": [
+   [
+    "A",
+    "meat loaf"
+   ],
+   [
+    "B",
+    "bedroom"
+   ],
+   [
+    "C",
+    "microwave"
+   ],
+   [
+    "D",
+    "living room"
+   ],
+   [
+    "E",
+    "floor"
+   ]
+  ],
+  "answer": "C"
+ },
+ {
+  "question": "What region of a west coast U.S. city would you find a Japanese restaurant?",
+  "choices": [
+   [
+    "A",
+    "california"
+   ],
+   [
+    "B",
+    "tokio"
+   ],
+   [
+    "C",
+    "downtown"
+   ],
+   [
+    "D",
+    "narnia"
+   ],
+   [
+    "E",
+    "large town"
+   ]
+  ],
+  "answer": "C"
+ },
+ {
+  "question": "His compressor needed a new hose, where did he go?",
+  "choices": [
+   [
+    "A",
+    "garden shed"
+   ],
+   [
+    "B",
+    "hardware store"
+   ],
+   [
+    "C",
+    "brothel"
+   ],
+   [
+    "D",
+    "garage"
+   ],
+   [
+    "E",
+    "greenhouse"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "If I want a new ottoman, where should I go?",
+  "choices": [
+   [
+    "A",
+    "furniture store"
+   ],
+   [
+    "B",
+    "parlor"
+   ],
+   [
+    "C",
+    "turkey"
+   ],
+   [
+    "D",
+    "living room"
+   ],
+   [
+    "E",
+    "den"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "By learning about the world, many poor college students gain what?",
+  "choices": [
+   [
+    "A",
+    "pleasure"
+   ],
+   [
+    "B",
+    "greater mobility"
+   ],
+   [
+    "C",
+    "desire to travel"
+   ],
+   [
+    "D",
+    "global warming"
+   ],
+   [
+    "E",
+    "increased security"
+   ]
+  ],
+  "answer": "C"
+ },
+ {
+  "question": "What would you use to find a place to stay?",
+  "choices": [
+   [
+    "A",
+    "mexico"
+   ],
+   [
+    "B",
+    "phone book"
+   ],
+   [
+    "C",
+    "town"
+   ],
+   [
+    "D",
+    "city"
+   ],
+   [
+    "E",
+    "sun dial"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "A revolving door is convenient for two direction travel, but it also serves as a security measure at a what?",
+  "choices": [
+   [
+    "A",
+    "bank"
+   ],
+   [
+    "B",
+    "library"
+   ],
+   [
+    "C",
+    "department store"
+   ],
+   [
+    "D",
+    "mall"
+   ],
+   [
+    "E",
+    "new york"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "Because of his anger he couldn't clearly explain or what?",
+  "choices": [
+   [
+    "A",
+    "cool off"
+   ],
+   [
+    "B",
+    "write letter"
+   ],
+   [
+    "C",
+    "get mad"
+   ],
+   [
+    "D",
+    "illustrate point"
+   ],
+   [
+    "E",
+    "destroy enemy"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "Where does a heifer's master live?",
+  "choices": [
+   [
+    "A",
+    "farm house"
+   ],
+   [
+    "B",
+    "barnyard"
+   ],
+   [
+    "C",
+    "stockyard"
+   ],
+   [
+    "D",
+    "slaughter house"
+   ],
+   [
+    "E",
+    "eat cake"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "Where is a broadcast studio likely to be heard?",
+  "choices": [
+   [
+    "A",
+    "microphone"
+   ],
+   [
+    "B",
+    "arena"
+   ],
+   [
+    "C",
+    "radio station"
+   ],
+   [
+    "D",
+    "trees"
+   ],
+   [
+    "E",
+    "town"
+   ]
+  ],
+  "answer": "C"
+ },
+ {
+  "question": "The man  tried to break the glass in order to make his escape in time, but he could not.  The person in the cat, trying to kill him, did what?",
+  "choices": [
+   [
+    "A",
+    "accelerate"
+   ],
+   [
+    "B",
+    "putting together"
+   ],
+   [
+    "C",
+    "working"
+   ],
+   [
+    "D",
+    "construct"
+   ],
+   [
+    "E",
+    "train"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "What is the habitat of the fox?",
+  "choices": [
+   [
+    "A",
+    "hen house"
+   ],
+   [
+    "B",
+    "burrow"
+   ],
+   [
+    "C",
+    "california"
+   ],
+   [
+    "D",
+    "england"
+   ],
+   [
+    "E",
+    "mountains"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "What could an apple tree do?",
+  "choices": [
+   [
+    "A",
+    "new hampshire"
+   ],
+   [
+    "B",
+    "bloom"
+   ],
+   [
+    "C",
+    "washington state"
+   ],
+   [
+    "D",
+    "sunshine"
+   ],
+   [
+    "E",
+    "spontaneously combust"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "If I put in my key and open a hinged door, where am I likely entering?",
+  "choices": [
+   [
+    "A",
+    "kitchen"
+   ],
+   [
+    "B",
+    "safe"
+   ],
+   [
+    "C",
+    "own house"
+   ],
+   [
+    "D",
+    "building"
+   ],
+   [
+    "E",
+    "pantry"
+   ]
+  ],
+  "answer": "C"
+ },
+ {
+  "question": "Where does one usually keep literature?",
+  "choices": [
+   [
+    "A",
+    "books and magazines"
+   ],
+   [
+    "B",
+    "own home"
+   ],
+   [
+    "C",
+    "kitchen"
+   ],
+   [
+    "D",
+    "shelf"
+   ],
+   [
+    "E",
+    "meeting"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "What part of plants is pretty?",
+  "choices": [
+   [
+    "A",
+    "dirt"
+   ],
+   [
+    "B",
+    "no neurons in"
+   ],
+   [
+    "C",
+    "millions of cells"
+   ],
+   [
+    "D",
+    "flowers on"
+   ],
+   [
+    "E",
+    "roots"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "You have to a lot of thinking while studying a new subject, but it is how you gain what?",
+  "choices": [
+   [
+    "A",
+    "fatigue"
+   ],
+   [
+    "B",
+    "depression"
+   ],
+   [
+    "C",
+    "best way"
+   ],
+   [
+    "D",
+    "weight"
+   ],
+   [
+    "E",
+    "knowledge"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "What do audiences clap for?",
+  "choices": [
+   [
+    "A",
+    "cinema"
+   ],
+   [
+    "B",
+    "theatre"
+   ],
+   [
+    "C",
+    "movies"
+   ],
+   [
+    "D",
+    "show"
+   ],
+   [
+    "E",
+    "hockey game"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "James was looking for a good place to buy farmland.  Where might he look?",
+  "choices": [
+   [
+    "A",
+    "midwest"
+   ],
+   [
+    "B",
+    "countryside"
+   ],
+   [
+    "C",
+    "estate"
+   ],
+   [
+    "D",
+    "farming areas"
+   ],
+   [
+    "E",
+    "illinois"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "When a person admits his mistakes, what are they doing?",
+  "choices": [
+   [
+    "A",
+    "accident"
+   ],
+   [
+    "B",
+    "learn to swim"
+   ],
+   [
+    "C",
+    "thank god"
+   ],
+   [
+    "D",
+    "feel relieved"
+   ],
+   [
+    "E",
+    "act responsibly"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "Danny is having fun just dancing and singing with his friends. He wasn't concerned with things that weren't fun. For him having fun is the same as what?",
+  "choices": [
+   [
+    "A",
+    "injuries"
+   ],
+   [
+    "B",
+    "smiling"
+   ],
+   [
+    "C",
+    "being happy"
+   ],
+   [
+    "D",
+    "glee"
+   ],
+   [
+    "E",
+    "jump"
+   ]
+  ],
+  "answer": "C"
+ },
+ {
+  "question": "What do people do when they don't understand something?",
+  "choices": [
+   [
+    "A",
+    "ask questions"
+   ],
+   [
+    "B",
+    "experience joy"
+   ],
+   [
+    "C",
+    "believe in god"
+   ],
+   [
+    "D",
+    "talk to each other"
+   ],
+   [
+    "E",
+    "get sick"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "What part of a table would you put a ruler in?",
+  "choices": [
+   [
+    "A",
+    "drawer"
+   ],
+   [
+    "B",
+    "desk"
+   ],
+   [
+    "C",
+    "the backside"
+   ],
+   [
+    "D",
+    "office"
+   ],
+   [
+    "E",
+    "measure distance"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "James saw a kite flying in the sky.  He traced the string back to its origin and found it.  Where did the string begin?",
+  "choices": [
+   [
+    "A",
+    "end of line"
+   ],
+   [
+    "B",
+    "hobby shop"
+   ],
+   [
+    "C",
+    "his hand"
+   ],
+   [
+    "D",
+    "toy store"
+   ],
+   [
+    "E",
+    "child's hand"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "WHat type of keyboard is made up of one or more pipe divisions?",
+  "choices": [
+   [
+    "A",
+    "killing"
+   ],
+   [
+    "B",
+    "typewriter"
+   ],
+   [
+    "C",
+    "office"
+   ],
+   [
+    "D",
+    "terminal"
+   ],
+   [
+    "E",
+    "organ"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "The town house went right to the curb, a slot effectively made a mailbox of the what?",
+  "choices": [
+   [
+    "A",
+    "apartment building"
+   ],
+   [
+    "B",
+    "front door"
+   ],
+   [
+    "C",
+    "back door"
+   ],
+   [
+    "D",
+    "street corner"
+   ],
+   [
+    "E",
+    "porch"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "Women used to be expected to wear a dress but it's now acceptable for them to wear what?",
+  "choices": [
+   [
+    "A",
+    "man suit"
+   ],
+   [
+    "B",
+    "pants"
+   ],
+   [
+    "C",
+    "naked"
+   ],
+   [
+    "D",
+    "action"
+   ],
+   [
+    "E",
+    "long skirt"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "A potato is kept in the cellar, where is likely to be stored?",
+  "choices": [
+   [
+    "A",
+    "farmer's market"
+   ],
+   [
+    "B",
+    "grocery bag"
+   ],
+   [
+    "C",
+    "pantry"
+   ],
+   [
+    "D",
+    "bushel basket"
+   ],
+   [
+    "E",
+    "fridge"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "What would you be building if you designed a place for an annoying critter to stay?",
+  "choices": [
+   [
+    "A",
+    "spread disease"
+   ],
+   [
+    "B",
+    "swamp"
+   ],
+   [
+    "C",
+    "fly away"
+   ],
+   [
+    "D",
+    "cat condo"
+   ],
+   [
+    "E",
+    "bug campers"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "I house outside the center of a community is said to be where?",
+  "choices": [
+   [
+    "A",
+    "city"
+   ],
+   [
+    "B",
+    "subdivision"
+   ],
+   [
+    "C",
+    "newspaper"
+   ],
+   [
+    "D",
+    "residential area"
+   ],
+   [
+    "E",
+    "street"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "A person with digestion issues eats a meat-filled breakfast, what does he feel?",
+  "choices": [
+   [
+    "A",
+    "heartburn"
+   ],
+   [
+    "B",
+    "overeating"
+   ],
+   [
+    "C",
+    "happiness"
+   ],
+   [
+    "D",
+    "being satisfied"
+   ],
+   [
+    "E",
+    "gain energy"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "If you want harmony, what is something you should try to do with the world?",
+  "choices": [
+   [
+    "A",
+    "take time"
+   ],
+   [
+    "B",
+    "make noise"
+   ],
+   [
+    "C",
+    "make war"
+   ],
+   [
+    "D",
+    "make peace"
+   ],
+   [
+    "E",
+    "make haste"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "What is main benefit to exercising?",
+  "choices": [
+   [
+    "A",
+    "losing weight"
+   ],
+   [
+    "B",
+    "healthy"
+   ],
+   [
+    "C",
+    "get in shape"
+   ],
+   [
+    "D",
+    "weight loss"
+   ],
+   [
+    "E",
+    "sweat"
+   ]
+  ],
+  "answer": "C"
+ },
+ {
+  "question": "Where can you buy a clock, clothing and wrenches?",
+  "choices": [
+   [
+    "A",
+    "counter"
+   ],
+   [
+    "B",
+    "train station"
+   ],
+   [
+    "C",
+    "school room"
+   ],
+   [
+    "D",
+    "desk"
+   ],
+   [
+    "E",
+    "department store"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "What is someone doing when scheduling when to go to party?",
+  "choices": [
+   [
+    "A",
+    "rumpspringa"
+   ],
+   [
+    "B",
+    "meeting new people"
+   ],
+   [
+    "C",
+    "having fun"
+   ],
+   [
+    "D",
+    "meet new people"
+   ],
+   [
+    "E",
+    "plan"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "There was many a bottle to choose from behind the cashier where?",
+  "choices": [
+   [
+    "A",
+    "grocery store"
+   ],
+   [
+    "B",
+    "diaper bag"
+   ],
+   [
+    "C",
+    "gas station"
+   ],
+   [
+    "D",
+    "liquor store"
+   ],
+   [
+    "E",
+    "medicine cabinet"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "How can someone be let into a brownstone?",
+  "choices": [
+   [
+    "A",
+    "brooklyn"
+   ],
+   [
+    "B",
+    "ring"
+   ],
+   [
+    "C",
+    "subdivision"
+   ],
+   [
+    "D",
+    "bricks"
+   ],
+   [
+    "E",
+    "new york city"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "The forest experienced a cold winter, where is it located?",
+  "choices": [
+   [
+    "A",
+    "earth"
+   ],
+   [
+    "B",
+    "south america"
+   ],
+   [
+    "C",
+    "amazon basin"
+   ],
+   [
+    "D",
+    "temperate zone"
+   ],
+   [
+    "E",
+    "national park"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "If you're going to a party in a new town what are you hoping to make?",
+  "choices": [
+   [
+    "A",
+    "getting drunk"
+   ],
+   [
+    "B",
+    "making new friends"
+   ],
+   [
+    "C",
+    "new contacts"
+   ],
+   [
+    "D",
+    "doing drugs"
+   ],
+   [
+    "E",
+    "set home"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "If I wanted to grow plants, where could I put a lot of dirt?",
+  "choices": [
+   [
+    "A",
+    "corner"
+   ],
+   [
+    "B",
+    "street"
+   ],
+   [
+    "C",
+    "closet"
+   ],
+   [
+    "D",
+    "garden"
+   ],
+   [
+    "E",
+    "bathtub"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "It's dangerous to let pet birds free so it's better to keep them what?",
+  "choices": [
+   [
+    "A",
+    "slavery"
+   ],
+   [
+    "B",
+    "caught"
+   ],
+   [
+    "C",
+    "caged in"
+   ],
+   [
+    "D",
+    "topfree"
+   ],
+   [
+    "E",
+    "prisoner"
+   ]
+  ],
+  "answer": "C"
+ },
+ {
+  "question": "The man got a pail to catch the draining motor oil, where was he likely doing this at home?",
+  "choices": [
+   [
+    "A",
+    "garage"
+   ],
+   [
+    "B",
+    "hardware store"
+   ],
+   [
+    "C",
+    "utility room"
+   ],
+   [
+    "D",
+    "wishing well"
+   ],
+   [
+    "E",
+    "laundry"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "To see new films you must?",
+  "choices": [
+   [
+    "A",
+    "open eyes"
+   ],
+   [
+    "B",
+    "go to movies"
+   ],
+   [
+    "C",
+    "kick ball"
+   ],
+   [
+    "D",
+    "make art"
+   ],
+   [
+    "E",
+    "look for"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "Most items in retail stores are what even when they are on sale?",
+  "choices": [
+   [
+    "A",
+    "overpriced"
+   ],
+   [
+    "B",
+    "purchase"
+   ],
+   [
+    "C",
+    "expensive"
+   ],
+   [
+    "D",
+    "park"
+   ],
+   [
+    "E",
+    "buying"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "Sally thought that competing wasn't worth the risk. If she pushed more what might happen?",
+  "choices": [
+   [
+    "A",
+    "pressure"
+   ],
+   [
+    "B",
+    "trying harder"
+   ],
+   [
+    "C",
+    "put harder"
+   ],
+   [
+    "D",
+    "enemies"
+   ],
+   [
+    "E",
+    "death"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "If I wanted to eat something that is made from plants and needs to be washed, what would it be?",
+  "choices": [
+   [
+    "A",
+    "roots"
+   ],
+   [
+    "B",
+    "millions of cells"
+   ],
+   [
+    "C",
+    "see work"
+   ],
+   [
+    "D",
+    "leaves to gather light"
+   ],
+   [
+    "E",
+    "flowers on"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "I want to see a prepared slide up close, what would I use to help?",
+  "choices": [
+   [
+    "A",
+    "microscope"
+   ],
+   [
+    "B",
+    "abbreviate"
+   ],
+   [
+    "C",
+    "glasses"
+   ],
+   [
+    "D",
+    "camera"
+   ],
+   [
+    "E",
+    "telescope"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "For what entity should the government work?",
+  "choices": [
+   [
+    "A",
+    "country"
+   ],
+   [
+    "B",
+    "democracy"
+   ],
+   [
+    "C",
+    "canada"
+   ],
+   [
+    "D",
+    "civilization"
+   ],
+   [
+    "E",
+    "tax office"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "Her son scraped his knee, she fetched a bottle of peroxide from the what?",
+  "choices": [
+   [
+    "A",
+    "supermarket"
+   ],
+   [
+    "B",
+    "diaper bag"
+   ],
+   [
+    "C",
+    "liquor store"
+   ],
+   [
+    "D",
+    "hollow log"
+   ],
+   [
+    "E",
+    "medicine cabinet"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "The man tried to reply to the woman, but he had difficulty keeping track of conversations that he didn't do what to?",
+  "choices": [
+   [
+    "A",
+    "initiate"
+   ],
+   [
+    "B",
+    "ignore"
+   ],
+   [
+    "C",
+    "question"
+   ],
+   [
+    "D",
+    "answer"
+   ],
+   [
+    "E",
+    "ask"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "If someone found out their brother was having a daughter, they would have to add a niece limb to the what?",
+  "choices": [
+   [
+    "A",
+    "family picture book"
+   ],
+   [
+    "B",
+    "family reunion"
+   ],
+   [
+    "C",
+    "brother's house"
+   ],
+   [
+    "D",
+    "family tree"
+   ],
+   [
+    "E",
+    "baby shower"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "What do people feel after having sex that requires them to shower?",
+  "choices": [
+   [
+    "A",
+    "bedroom"
+   ],
+   [
+    "B",
+    "pleasant"
+   ],
+   [
+    "C",
+    "obesity"
+   ],
+   [
+    "D",
+    "painful"
+   ],
+   [
+    "E",
+    "dirty"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "He had no issue committing perjury, he had a what that he would get away with it?",
+  "choices": [
+   [
+    "A",
+    "confidence"
+   ],
+   [
+    "B",
+    "go to jail"
+   ],
+   [
+    "C",
+    "telling lies"
+   ],
+   [
+    "D",
+    "lying"
+   ],
+   [
+    "E",
+    "manual"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "What might a person be watching if they see a man with a suitcase full of money?",
+  "choices": [
+   [
+    "A",
+    "baggage compartment"
+   ],
+   [
+    "B",
+    "movie"
+   ],
+   [
+    "C",
+    "subway"
+   ],
+   [
+    "D",
+    "airplane"
+   ],
+   [
+    "E",
+    "cargo hold"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "Where do you throw a ball at pins?",
+  "choices": [
+   [
+    "A",
+    "bowling alley"
+   ],
+   [
+    "B",
+    "football stadium"
+   ],
+   [
+    "C",
+    "soccer field"
+   ],
+   [
+    "D",
+    "sporting event"
+   ],
+   [
+    "E",
+    "sporting goods store"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "What is likely to happen to someone who is learning?",
+  "choices": [
+   [
+    "A",
+    "overconfidence"
+   ],
+   [
+    "B",
+    "effectiveness"
+   ],
+   [
+    "C",
+    "knowing more"
+   ],
+   [
+    "D",
+    "head grows larger"
+   ],
+   [
+    "E",
+    "growth"
+   ]
+  ],
+  "answer": "C"
+ },
+ {
+  "question": "Computers have allowed everybody to answer questions they have quickly, but still we seem to be getting duller despite access to this what?",
+  "choices": [
+   [
+    "A",
+    "economic boom"
+   ],
+   [
+    "B",
+    "advance knowledge"
+   ],
+   [
+    "C",
+    "produce sound"
+   ],
+   [
+    "D",
+    "teach"
+   ],
+   [
+    "E",
+    "follow instructions"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "Sometimes a person has a fear of water or a dislike of being wet, it is still important to make sure they are having a bath why?",
+  "choices": [
+   [
+    "A",
+    "flooding"
+   ],
+   [
+    "B",
+    "drowning"
+   ],
+   [
+    "C",
+    "wet skin"
+   ],
+   [
+    "D",
+    "get wet"
+   ],
+   [
+    "E",
+    "rash"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "Joe and Mac were playing basketball. They did it every day in their back yard.  Why were they playing basketball?",
+  "choices": [
+   [
+    "A",
+    "study"
+   ],
+   [
+    "B",
+    "have fun"
+   ],
+   [
+    "C",
+    "pain"
+   ],
+   [
+    "D",
+    "cheers"
+   ],
+   [
+    "E",
+    "knee injury"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "The teacher played on the upright piano, she was explaining the song to all the students in the what?",
+  "choices": [
+   [
+    "A",
+    "music room"
+   ],
+   [
+    "B",
+    "bathroom"
+   ],
+   [
+    "C",
+    "house"
+   ],
+   [
+    "D",
+    "living room"
+   ],
+   [
+    "E",
+    "music store"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "Competing can lead to great highs, and also great lows when suffering what?",
+  "choices": [
+   [
+    "A",
+    "winning or losing"
+   ],
+   [
+    "B",
+    "aggression"
+   ],
+   [
+    "C",
+    "gain"
+   ],
+   [
+    "D",
+    "defeat"
+   ],
+   [
+    "E",
+    "sweat"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "James and Holly went dancing together. As they danced, he  pressed himself against her what?",
+  "choices": [
+   [
+    "A",
+    "euphoria"
+   ],
+   [
+    "B",
+    "moving body"
+   ],
+   [
+    "C",
+    "rhythmic movement"
+   ],
+   [
+    "D",
+    "happiness"
+   ],
+   [
+    "E",
+    "fatigue"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "Pens, computers, text books and paper clips can all be found where?",
+  "choices": [
+   [
+    "A",
+    "desktop"
+   ],
+   [
+    "B",
+    "university"
+   ],
+   [
+    "C",
+    "drawer"
+   ],
+   [
+    "D",
+    "table"
+   ],
+   [
+    "E",
+    "work"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "How would you express information if you do not have a pen or pencil?",
+  "choices": [
+   [
+    "A",
+    "may disagree"
+   ],
+   [
+    "B",
+    "close mouth"
+   ],
+   [
+    "C",
+    "write down"
+   ],
+   [
+    "D",
+    "talk"
+   ],
+   [
+    "E",
+    "eyes"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "The old man needed to have rest multiple times a day, he would do what on the couch and catnap?",
+  "choices": [
+   [
+    "A",
+    "lay in bed"
+   ],
+   [
+    "B",
+    "lay in bed"
+   ],
+   [
+    "C",
+    "go to bed"
+   ],
+   [
+    "D",
+    "relax"
+   ],
+   [
+    "E",
+    "lie down"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "James decided that competing was the right choice.   Not competing has a defined outcome, but if he competes then what could happen?",
+  "choices": [
+   [
+    "A",
+    "might win"
+   ],
+   [
+    "B",
+    "perform better"
+   ],
+   [
+    "C",
+    "enemies"
+   ],
+   [
+    "D",
+    "winners and losers"
+   ],
+   [
+    "E",
+    "lose"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "What is a philosopher waiting for to eventually gain through his studies?",
+  "choices": [
+   [
+    "A",
+    "job"
+   ],
+   [
+    "B",
+    "boredom"
+   ],
+   [
+    "C",
+    "anxiety"
+   ],
+   [
+    "D",
+    "impatience"
+   ],
+   [
+    "E",
+    "wisdom"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "The surgeon's clients had begun to reduce, it seemed girls no longer want to what?",
+  "choices": [
+   [
+    "A",
+    "reduction"
+   ],
+   [
+    "B",
+    "make larger"
+   ],
+   [
+    "C",
+    "augment"
+   ],
+   [
+    "D",
+    "gain weight"
+   ],
+   [
+    "E",
+    "expand"
+   ]
+  ],
+  "answer": "C"
+ },
+ {
+  "question": "What can machines do that humans cannot?",
+  "choices": [
+   [
+    "A",
+    "fail to work"
+   ],
+   [
+    "B",
+    "perform work"
+   ],
+   [
+    "C",
+    "answering questions"
+   ],
+   [
+    "D",
+    "see work"
+   ],
+   [
+    "E",
+    "fly"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "The janitor never had much to clean after services, but there was still always a paper or two to pick up where?",
+  "choices": [
+   [
+    "A",
+    "synagogue"
+   ],
+   [
+    "B",
+    "front porch"
+   ],
+   [
+    "C",
+    "classroom"
+   ],
+   [
+    "D",
+    "obesity"
+   ],
+   [
+    "E",
+    "grocery store"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "Where would you find a basement that can be accessed with an elevator?",
+  "choices": [
+   [
+    "A",
+    "eat cake"
+   ],
+   [
+    "B",
+    "closet"
+   ],
+   [
+    "C",
+    "church"
+   ],
+   [
+    "D",
+    "office building"
+   ],
+   [
+    "E",
+    "own house"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "Where would you hear a violin along side many string and wind instruments?",
+  "choices": [
+   [
+    "A",
+    "school"
+   ],
+   [
+    "B",
+    "string quartet"
+   ],
+   [
+    "C",
+    "orchestra"
+   ],
+   [
+    "D",
+    "kitchen"
+   ],
+   [
+    "E",
+    "music room"
+   ]
+  ],
+  "answer": "C"
+ },
+ {
+  "question": "The runner was in third place, but he pushed harder and thought he might be able to reach second.  What was beginning to do?",
+  "choices": [
+   [
+    "A",
+    "near finish line"
+   ],
+   [
+    "B",
+    "finish"
+   ],
+   [
+    "C",
+    "get tired"
+   ],
+   [
+    "D",
+    "gain ground"
+   ],
+   [
+    "E",
+    "trip over"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "The juror was quite bored and zoning out but wanted to convey he was hearing testimony, so he just sat there doing what?",
+  "choices": [
+   [
+    "A",
+    "take notes"
+   ],
+   [
+    "B",
+    "nodding"
+   ],
+   [
+    "C",
+    "change of heart"
+   ],
+   [
+    "D",
+    "writing down"
+   ],
+   [
+    "E",
+    "listening"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "They children loved having a back yard, and the parents loved that it was a safe what?",
+  "choices": [
+   [
+    "A",
+    "suburb"
+   ],
+   [
+    "B",
+    "neighborhood"
+   ],
+   [
+    "C",
+    "back of house"
+   ],
+   [
+    "D",
+    "roundabout"
+   ],
+   [
+    "E",
+    "property"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "Where is a teacher likely to keep her clavichord?",
+  "choices": [
+   [
+    "A",
+    "living room"
+   ],
+   [
+    "B",
+    "parlor"
+   ],
+   [
+    "C",
+    "music hall"
+   ],
+   [
+    "D",
+    "music room"
+   ],
+   [
+    "E",
+    "museum"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "What type of fruit is easily broken in to sections?",
+  "choices": [
+   [
+    "A",
+    "slide"
+   ],
+   [
+    "B",
+    "citrus"
+   ],
+   [
+    "C",
+    "band"
+   ],
+   [
+    "D",
+    "orchestra"
+   ],
+   [
+    "E",
+    "coconut"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "Where can you store your dishes in your dwelling?",
+  "choices": [
+   [
+    "A",
+    "drawer"
+   ],
+   [
+    "B",
+    "shelf"
+   ],
+   [
+    "C",
+    "pantry"
+   ],
+   [
+    "D",
+    "apartment"
+   ],
+   [
+    "E",
+    "cabinet"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "They were never going to be big actors, but they all had passion for the local what?",
+  "choices": [
+   [
+    "A",
+    "theater"
+   ],
+   [
+    "B",
+    "opera"
+   ],
+   [
+    "C",
+    "show"
+   ],
+   [
+    "D",
+    "television"
+   ],
+   [
+    "E",
+    "blockbuster feature"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "What can happen if you are buying products that someone else does not want you to buy?",
+  "choices": [
+   [
+    "A",
+    "joy"
+   ],
+   [
+    "B",
+    "disagreements"
+   ],
+   [
+    "C",
+    "agony"
+   ],
+   [
+    "D",
+    "pleasure"
+   ],
+   [
+    "E",
+    "owning"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "Where would you use a folding chair but not store one?",
+  "choices": [
+   [
+    "A",
+    "beach"
+   ],
+   [
+    "B",
+    "city hall"
+   ],
+   [
+    "C",
+    "closet"
+   ],
+   [
+    "D",
+    "garage"
+   ],
+   [
+    "E",
+    "school"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "If you turn off the music in a room with no other noise that room would be what?",
+  "choices": [
+   [
+    "A",
+    "silent"
+   ],
+   [
+    "B",
+    "opera"
+   ],
+   [
+    "C",
+    "silence"
+   ],
+   [
+    "D",
+    "television"
+   ],
+   [
+    "E",
+    "elevator"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "What is someone doing if he or she is sitting quietly and his or her eyes are moving?",
+  "choices": [
+   [
+    "A",
+    "reading"
+   ],
+   [
+    "B",
+    "meditate"
+   ],
+   [
+    "C",
+    "fall asleep"
+   ],
+   [
+    "D",
+    "bunk"
+   ],
+   [
+    "E",
+    "think"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "The earth is one planet in what?",
+  "choices": [
+   [
+    "A",
+    "tree"
+   ],
+   [
+    "B",
+    "orbit"
+   ],
+   [
+    "C",
+    "solar system"
+   ],
+   [
+    "D",
+    "fotograph"
+   ],
+   [
+    "E",
+    "dreams"
+   ]
+  ],
+  "answer": "C"
+ },
+ {
+  "question": "If you are hungry and going fishing, why would you be going fishing?",
+  "choices": [
+   [
+    "A",
+    "to see the fish"
+   ],
+   [
+    "B",
+    "have fun"
+   ],
+   [
+    "C",
+    "catching fish"
+   ],
+   [
+    "D",
+    "wet clothes"
+   ],
+   [
+    "E",
+    "killing"
+   ]
+  ],
+  "answer": "C"
+ },
+ {
+  "question": "Reading newspaper one of many ways to practice your what?",
+  "choices": [
+   [
+    "A",
+    "literacy"
+   ],
+   [
+    "B",
+    "knowing how to read"
+   ],
+   [
+    "C",
+    "money"
+   ],
+   [
+    "D",
+    "buying"
+   ],
+   [
+    "E",
+    "money bank"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "Why does someone want to examine thing closely?",
+  "choices": [
+   [
+    "A",
+    "buy"
+   ],
+   [
+    "B",
+    "learn about"
+   ],
+   [
+    "C",
+    "buy"
+   ],
+   [
+    "D",
+    "complex"
+   ],
+   [
+    "E",
+    "interesting"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "He picked up the perfect pebble, he planned to skip it across the entire small what?",
+  "choices": [
+   [
+    "A",
+    "manual"
+   ],
+   [
+    "B",
+    "lake"
+   ],
+   [
+    "C",
+    "aquarium"
+   ],
+   [
+    "D",
+    "pond"
+   ],
+   [
+    "E",
+    "playground"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "After recovering from the disease, what did the doctor call the patient?",
+  "choices": [
+   [
+    "A",
+    "healthy"
+   ],
+   [
+    "B",
+    "passing around"
+   ],
+   [
+    "C",
+    "cure"
+   ],
+   [
+    "D",
+    "wellness"
+   ],
+   [
+    "E",
+    "healthy"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "They wanted to try blowfish, so they went to get some where?",
+  "choices": [
+   [
+    "A",
+    "atlantic ocean"
+   ],
+   [
+    "B",
+    "books"
+   ],
+   [
+    "C",
+    "france"
+   ],
+   [
+    "D",
+    "aquarium"
+   ],
+   [
+    "E",
+    "fish market"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "He was at the gym trying to build muscle, what is it called that he is trying to build muscle on?",
+  "choices": [
+   [
+    "A",
+    "body of animal"
+   ],
+   [
+    "B",
+    "arm"
+   ],
+   [
+    "C",
+    "bodybuilder"
+   ],
+   [
+    "D",
+    "body of dog"
+   ],
+   [
+    "E",
+    "human body"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "Who watches a play in an auditorium?",
+  "choices": [
+   [
+    "A",
+    "building"
+   ],
+   [
+    "B",
+    "crowd"
+   ],
+   [
+    "C",
+    "city"
+   ],
+   [
+    "D",
+    "group"
+   ],
+   [
+    "E",
+    "high school"
+   ]
+  ],
+  "answer": "B"
+ },
+ {
+  "question": "What green area is a marmot likely to be found in?",
+  "choices": [
+   [
+    "A",
+    "countryside"
+   ],
+   [
+    "B",
+    "great plains"
+   ],
+   [
+    "C",
+    "encyclopedia"
+   ],
+   [
+    "D",
+    "jungle"
+   ],
+   [
+    "E",
+    "north america"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "Where would you get some wood if you do not have any?",
+  "choices": [
+   [
+    "A",
+    "carpet"
+   ],
+   [
+    "B",
+    "boat"
+   ],
+   [
+    "C",
+    "river"
+   ],
+   [
+    "D",
+    "lumberyard"
+   ],
+   [
+    "E",
+    "synagogue"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "Bart entered his horse into the contest.  Where did he do this?",
+  "choices": [
+   [
+    "A",
+    "circus"
+   ],
+   [
+    "B",
+    "in kentucky"
+   ],
+   [
+    "C",
+    "western movie"
+   ],
+   [
+    "D",
+    "central park"
+   ],
+   [
+    "E",
+    "state fair"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "Athletes soak in hot tubs to relieve what after playing baseball?",
+  "choices": [
+   [
+    "A",
+    "fame"
+   ],
+   [
+    "B",
+    "errors"
+   ],
+   [
+    "C",
+    "pain"
+   ],
+   [
+    "D",
+    "strikes"
+   ],
+   [
+    "E",
+    "sore muscles"
+   ]
+  ],
+  "answer": "E"
+ },
+ {
+  "question": "Where can you find a snake in tall grass?",
+  "choices": [
+   [
+    "A",
+    "tree"
+   ],
+   [
+    "B",
+    "in a jar"
+   ],
+   [
+    "C",
+    "pet shops"
+   ],
+   [
+    "D",
+    "feild"
+   ],
+   [
+    "E",
+    "tropical forest"
+   ]
+  ],
+  "answer": "D"
+ },
+ {
+  "question": "While waiting for this appointment, people often read magazines.",
+  "choices": [
+   [
+    "A",
+    "doctor"
+   ],
+   [
+    "B",
+    "train station"
+   ],
+   [
+    "C",
+    "newsagent"
+   ],
+   [
+    "D",
+    "market"
+   ],
+   [
+    "E",
+    "table"
+   ]
+  ],
+  "answer": "A"
+ },
+ {
+  "question": "The old style pop ups literally let you see the story when you did what?",
+  "choices": [
+   [
+    "A",
+    "giggle"
+   ],
+   [
+    "B",
+    "visualize"
+   ],
+   [
+    "C",
+    "open book"
+   ],
+   [
+    "D",
+    "reading"
+   ],
+   [
+    "E",
+    "go to movies"
+   ]
+  ],
+  "answer": "C"
+ }
+]
