@@ -97,12 +97,17 @@ subset (greedy decoding; chance is 0.200):
 |---|---|---|
 | GPT-2 124M, zero-shot | 0.024 | does not follow the answer format; raw continuations are mostly unparseable |
 | **ouroboros-v0** (Phase 0 SFT) | **0.364** | operator fine-tune: 3,000 real CSQA train examples, 720 steps |
-| ouroboros-vN | see `EVOLUTION.md` | each accepted cycle, autonomously gated |
+| **ouroboros-v2** (cycle 9) | **0.396** | first autonomously accepted cycle: 125 verified self-completions + 40 hard-mined golds, 120 steps (+0.032) |
 
-The live record — every attempt, accepted or rolled back, with accuracies,
-training logs, and genome state — is in `EVOLUTION.md` (human-readable) and
-`workspace/evals/ledger.jsonl` (machine-readable). Rollbacks are part of
-the record by design: the system's honesty is auditable.
+Current incumbent: `ouroboros-v2` at 0.396, set by cycle 9. Cycles 1-8
+and 10-12 were rolled back by the gate (attempts ranged 0.217-0.388,
+including the failed free-text rationale experiments of cycles 1-4, kept
+in the record deliberately). The live ledger — every attempt with
+accuracies, training logs, and genome state — is `EVOLUTION.md`
+(human-readable) and `workspace/evals/ledger.jsonl` (machine-readable).
+Rollbacks are part of the record by design: the system's honesty is
+auditable, and the incumbent's weights are never degraded by a failed
+experiment.
 
 Curated data samples from each cycle are committed under
 `workspace/curated/sample_cycle_N.jsonl` (attribution below).
