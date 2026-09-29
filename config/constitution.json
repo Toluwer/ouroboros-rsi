@@ -1,6 +1,7 @@
 {
   "immutable": {
     "base_model": "openai-community/gpt2",
+    "selfgen_mode": "answer",
     "task": "commonsense_qa",
     "train_dataset": "tau/commonsense_qa (train split)",
     "eval_dataset": "tau/commonsense_qa (validation split, fixed subset)",
@@ -20,12 +21,11 @@
     "k": [2, 6],
     "max_new_tokens": [48, 128],
     "gen_questions": [40, 160],
-    "rationalize_cap": [10, 80],
     "replay": [80, 320],
     "train_steps": [120, 400],
     "lr": [5e-06, 5e-05],
     "cooldown_s": [30, 900]
   },
   "mutation_every": 5,
-  "notes": "The constitution is human-authored and immutable at runtime. bounds are hard limits for every genome mutation; immutable entries (base model, task, evaluation protocol, gating rule) can never be changed by the daemon. Any change to this file requires a human commit."
+  "notes": "The constitution is human-authored and immutable at runtime. bounds are hard limits for every genome mutation; immutable entries (base model, task, evaluation protocol, gating rule, self-generation mode) can never be changed by the daemon. selfgen_mode 'answer' = verified self-training: the model samples k answer attempts, correctness-filtered against ground truth, and trains on its own verified completions plus hard-mined gold examples for every miss; 'rationale' (STaR free-text bootstrapping) is intended for instruction-following base models. Any change to this file requires a human commit."
 }

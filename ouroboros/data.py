@@ -94,6 +94,9 @@ def direct_prompt(item: dict) -> str:
 
 
 def rationale_prompt(item: dict) -> str:
+    """Zero-shot rationale prompt. Used for TRAINING pairs (the model
+    internalizes the pattern from curated data); generation-time prompts
+    prepend few-shot exemplars (see few_shot_prefix)."""
     return (
         f"Question: {item['question']}\n"
         f"{format_choices(item)}\n"
@@ -101,15 +104,71 @@ def rationale_prompt(item: dict) -> str:
     )
 
 
-def rationalization_prompt(item: dict, gold: str) -> str:
-    """STaR rationalization: the gold answer is given as a hint and the
-    model must produce a supporting rationale for it."""
+# Two hand-written rationales over real CommonsenseQA train questions, used
+# only as few-shot exemplars at generation time (STaR-style bootstrapping;
+# the model's own filtered outputs, not these exemplars, are the training
+# data). Questions: CSQA train indices 0 and 5.
+EXEMPLARS = [
+    {
+        "question": "The sanctions against the school were a punishing blow, "
+        "and they seemed to what the efforts the school had made to change?",
+        "choices": [("A", "ignore"), ("B", "enforce"), ("C", "authoritarian"),
+                    ("D", "yell at"), ("E", "avoid")],
+        "answer": "A",
+        "reasoning": "Sanctions are a punishment meant to pressure a school "
+        "into changing. If the school had already made efforts to change, "
+        "the sanctions would work against those efforts instead of "
+        "supporting them, so they seemed to disregard the efforts. "
+        "The word that fits is ignore.",
+    },
+    {
+        "question": "What home entertainment equipment requires cable?",
+        "choices": [("A", "radio shack"), ("B", "substation"), ("C", "cabinet"),
+                    ("D", "television"), ("E", "desk")],
+        "answer": "D",
+        "reasoning": "Home entertainment equipment is something found in a "
+        "living room used for watching shows. Cable service delivers "
+        "channels to a screen, and the device that needs a cable "
+        "connection to receive them is a television. The other options "
+        "are furniture or utility structures.",
+    },
+]
+
+
+def few_shot_prefix() -> str:
+    parts = []
+    for ex in EXEMPLARS:
+        parts.append(
+            f"Question: {ex['question']}\n"
+            + "\n".join(f"{l}. {t}" for l, t in ex["choices"])
+            + f"\nReasoning: {ex['reasoning']}\n"
+            + f"Answer: {answer_text(ex)} ({ex['answer']})\n"
+        )
+    return "\n".join(parts) + "\n"
+
+
+def fs_rationale_prompt(item: dict) -> str:
+    """Few-shot generation prompt for sampling rationales."""
+    return few_shot_prefix() + rationale_prompt(item)
+
+
+def fs_rationalization_prompt(item: dict, gold: str) -> str:
+    """Few-shot STaR rationalization: the gold answer is given as a hint and
+    the model must produce a supporting rationale for it."""
     return (
-        f"Question: {item['question']}\n"
-        f"{format_choices(item)}\n"
-        f"Answer: {gold}\n"
+        few_shot_prefix()
+        + f"Question: {item['question']}\n"
+        + format_choices(item)
+        + f"\nAnswer: {answer_text_for(item, gold)} ({gold})\n"
         "Reasoning:"
     )
+
+
+def answer_text_for(item: dict, letter: str) -> str:
+    for l, t in item["choices"]:
+        if l == letter:
+            return t.strip()
+    return ""
 
 
 def rationale_completion(item: dict, rationale: str) -> str:

@@ -1,10 +1,10 @@
 {
-  "temperature": 0.7,
-  "k": 3,
+  "temperature": 0.8,
+  "k": 4,
   "max_new_tokens": 90,
   "gen_questions": 60,
   "replay": 140,
   "train_steps": 180,
-  "lr": 1.5e-05,
+  "lr": 2.5e-05,
   "cooldown_s": 60
 }

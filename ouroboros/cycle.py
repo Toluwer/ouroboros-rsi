@@ -1,23 +1,37 @@
-"""One self-improvement cycle (STaR-style bootstrapping), resumable.
+"""One self-improvement cycle (verified self-training), resumable.
 
-Per cycle, using only unlabeled questions as prompts:
+The mechanism, per cycle, in constitution-declared ``selfgen_mode``:
 
-  1. SAMPLE     Draw the next batch of training questions (rotating pointer,
-                so the system works through the full 9,741-question pool).
-  2. GENERATE   For each question, sample k rationale+answer completions.
-  3. FILTER     Keep completions whose final answer matches ground truth
-                (deduplicated, length-bounded). For questions the model
-                missed, STaR *rationalization*: show the gold answer as a
-                hint, keep the rationale the model produces for it. Labels
-                are used only for filtering, never as generation input.
-  4. TRAIN      Fine-tune on (filtered self-generated data + replayed gold
-                direct-format examples to prevent format drift and
-                forgetting).
+  answer (default for GPT-2-class bases) -- verified self-training:
+  1. SAMPLE     Draw the next batch of questions from the full 9,741-question
+                pool (phase 0 consumed only the first 3,000, so most sampled
+                questions were never seen in training).
+  2. GENERATE   For each question, sample k answer completions at the
+                genome's temperature.
+  3. FILTER     Keep completions whose parsed answer matches ground truth
+                (STaR's correctness filter). The model's own verified output
+                strings become the training targets (self-distillation).
+                For every question with no correct attempt, the gold
+                completion is added instead (hard-example mining -- the
+                rationalization step of STaR, minus free text, which bases
+                of this scale cannot reliably produce).
+  4. TRAIN      Fine-tune on (verified self-generated completions +
+                hard-mined golds + replayed gold examples).
   5. GATE       Evaluate on the fixed held-out subset. Accept only if
                 accuracy beats the incumbent by more than the constitution's
                 margin; otherwise roll the weights back to the incumbent.
   6. PUBLISH    Append to the ledger and EVOLUTION.md, save artifacts, and
                 commit+push to the repository (offline-tolerant).
+
+  rationale (for instruction-following bases) -- STaR bootstrapping with
+  few-shot rationale prompts; the same cycle code path, different
+  generation/filtering stage, switched by the constitution.
+
+The loop is recursive in the meaningful sense: the model's own competence
+selects its curriculum (what it gets right is consolidated; what it misses
+is hard-mined), the gate converts that selection into new weights only
+when held-out accuracy actually improves, and the improved model then
+re-selects the next cycle's curriculum.
 
 Execution is staged and resumable: the cycle's state (curated training
 data, step counter, stage) is journaled to workspace/logs/job_<id>.json and
@@ -49,9 +63,9 @@ from .model import OuroborosModel
 _SECONDS_PER_STEP = 3.5  # measured on 2 vCPU + 15% margin
 
 
-def _sample_ok(rationale: str) -> bool:
-    words = len(rationale.split())
-    return 8 <= words <= 90
+def _gen_ok(text: str, mode: str) -> bool:
+    words = len(text.split())
+    return (1 <= words <= 8) if mode == "answer" else (8 <= words <= 90)
 
 
 def _ver(name: str) -> int:
@@ -98,57 +112,71 @@ def _init_job(cycle_id: int, state: dict, genome: dict, constitution: dict,
 
     model = OuroborosModel.load(state["best_ckpt"])
     items = data.train_items()
+    # the few-shot exemplar questions are excluded from the generation pool
+    # so their answers are never present in the sampling prompt
+    exemplar_qs = {ex["question"] for ex in data.EXEMPLARS}
+    pool = [it for it in items if it["question"] not in exemplar_qs]
 
     n_gen = 12 if fast else genome["gen_questions"]
     k = genome["k"]
     ptr = state["ptr"]
-    batch = [items[(ptr + i) % len(items)] for i in range(n_gen)]
-    state["ptr"] = (ptr + n_gen) % len(items)
+    batch = [pool[(ptr + i) % len(pool)] for i in range(n_gen)]
+    state["ptr"] = (ptr + n_gen) % len(pool)
     config.save_state(state)
 
     t0 = time.time()
-    positives: list[tuple[dict, str]] = []
-    rationalized: list[tuple[dict, str]] = []
+    mode = constitution["immutable"].get("selfgen_mode", "answer")
+    positives: list[tuple[dict, str]] = []      # (item, model's own verified completion)
+    hard_mined: list[dict] = []                 # misses -> gold completions
     raw_generations = []
     for it in batch:
+        if mode == "rationale":
+            prompt = data.fs_rationale_prompt(it)
+            max_new = genome["max_new_tokens"]
+        else:
+            prompt = data.direct_prompt(it)
+            max_new = 12
         gens = model.generate(
-            data.rationale_prompt(it),
+            prompt,
             k=k,
             temperature=genome["temperature"],
-            max_new_tokens=genome["max_new_tokens"],
+            max_new_tokens=max_new,
         )
         kept: list[str] = []
         for g in gens:
-            pred = data.parse_letter(g)
-            if pred == it["answer"] and _sample_ok(g) and g.strip().lower() not in kept:
+            if mode == "rationale":
+                pred = data.parse_letter(g)
+            else:
+                pred = data.parse_prediction(g, it)
+            if pred == it["answer"] and _gen_ok(g, mode) and g.strip().lower() not in kept:
                 kept.append(g.strip().lower())
                 positives.append((it, g.strip()))
                 raw_generations.append(
                     {"q": it["question"][:100], "gold": it["answer"],
-                     "rationale": g.strip()[:400], "source": "sampled"}
+                     "gen": g.strip()[:200], "source": "verified-self"}
                 )
-        if not kept and len(rationalized) < genome["rationalize_cap"]:
-            r = model.generate(
-                data.rationalization_prompt(it, it["answer"]),
-                k=1,
-                temperature=0.5,
-                max_new_tokens=genome["max_new_tokens"],
-            )[0]
-            if _sample_ok(r):
-                rationalized.append((it, r.strip()))
-                raw_generations.append(
-                    {"q": it["question"][:100], "gold": it["answer"],
-                     "rationale": r.strip()[:400], "source": "rationalized"}
-                )
+        if not kept:
+            hard_mined.append(it)
+            raw_generations.append(
+                {"q": it["question"][:100], "gold": it["answer"],
+                 "gen": "(no correct attempt -- hard-mined with gold)",
+                 "source": "hard-mined"}
+            )
     gen_seconds = round(time.time() - t0, 1)
-    log(f"[cycle {cycle_id}] generated on {len(batch)} questions: "
-        f"{len(positives)} correct rationales, {len(rationalized)} rationalized "
-        f"({gen_seconds}s)")
+    log(f"[cycle {cycle_id}] sampled {len(batch)} questions x{k}: "
+        f"{len(positives)} verified self-completions, {len(hard_mined)} "
+        f"hard-mined ({gen_seconds}s)")
 
-    # training set: self-generated rationale format + gold replay
+    # training set: verified self-generated completions (kept verbatim) +
+    # hard-mined golds + gold replay for format stability and retention
     examples: list[list[str]] = []
-    for it, r in positives + rationalized:
-        examples.append([data.rationale_prompt(it), data.rationale_completion(it, r)])
+    for it, gen in positives:
+        if mode == "rationale":
+            examples.append([data.rationale_prompt(it), f" {gen}"])
+        else:
+            examples.append([data.direct_prompt(it), gen])
+    for it in hard_mined:
+        examples.append([data.direct_prompt(it), data.direct_completion(it)])
     replay = 40 if fast else genome["replay"]
     replay_items = rng.sample(items[:4000], min(replay, 4000))
     for it in replay_items:
@@ -163,7 +191,7 @@ def _init_job(cycle_id: int, state: dict, genome: dict, constitution: dict,
         "gen_stats": {
             "questions": len(batch),
             "positives": len(positives),
-            "rationalized": len(rationalized),
+            "hard_mined": len(hard_mined),
             "gen_seconds": gen_seconds,
             "raw": raw_generations,
         },
@@ -318,7 +346,7 @@ def run_cycle(fast: bool = False, budget_s: float | None = None, log=print) -> l
             "incumbent": incumbent,
             "checkpoint": str(ckpt) if ckpt else state["best_ckpt"],
             "positives": gs["positives"],
-            "rationalized": gs["rationalized"],
+            "hard_mined": gs["hard_mined"],
             "gen_questions": gs["questions"],
             "train": train_log,
             "genome": {k: genome[k] for k in sorted(genome)},
@@ -330,16 +358,16 @@ def run_cycle(fast: bool = False, budget_s: float | None = None, log=print) -> l
         if accepted:
             delta = (ev["accuracy"] - incumbent) if incumbent is not None else None
             config.append_evolution(
-                f"| {cycle_id} | self-improve (sample {gs['positives']} + "
-                f"rationalize {gs['rationalized']}, train {job['steps_done']} steps) | "
+                f"| {cycle_id} | self-train (verified {gs['positives']} + "
+                f"hard-mined {gs['hard_mined']}, train {job['steps_done']} steps) | "
                 f"{ev['accuracy']:.3f} | accepted | "
                 f"`{Path(ckpt).name}` "
                 f"({'+' + format(delta, '.3f') if delta is not None else 'baseline'}) |"
             )
         else:
             config.append_evolution(
-                f"| {cycle_id} | self-improve (sample {gs['positives']} + "
-                f"rationalize {gs['rationalized']}, train {job['steps_done']} steps) | "
+                f"| {cycle_id} | self-train (verified {gs['positives']} + "
+                f"hard-mined {gs['hard_mined']}, train {job['steps_done']} steps) | "
                 f"{ev['accuracy']:.3f} | rolled back | incumbent kept |"
             )
 
