@@ -12,3 +12,4 @@ by more than 0.004 accuracy (constitution: `accept_margin`).
 | cycle | action | held-out acc | outcome | checkpoint |
 |---|---|---|---|---|
 | 0 | phase 0 (operator SFT on CommonsenseQA train) | 0.364 | accepted | baseline checkpoint `ouroboros-v0` |
+| 1 | self-improve (sample 0 + rationalize 0, train 50 steps) | 0.300 | rolled back | incumbent kept |

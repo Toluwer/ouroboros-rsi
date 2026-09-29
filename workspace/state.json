@@ -1,10 +1,10 @@
 {
-  "cycle": 0,
+  "cycle": 1,
   "best_acc": 0.364,
   "best_ckpt": "/home/z/my-project/ouroboros-rsi/workspace/checkpoints/ouroboros-v0",
-  "ptr": 0,
+  "ptr": 12,
   "pending_mutation": null,
   "mutated_keys": [],
   "started": "2026-09-29T02:08:51+0000",
-  "last_cycle_at": "2026-09-29T02:08:51+0000"
+  "last_cycle_at": "2026-09-29T02:12:57+0000"
 }
