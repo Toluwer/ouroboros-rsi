@@ -2,9 +2,9 @@
   "temperature": 0.8,
   "k": 4,
   "max_new_tokens": 90,
-  "gen_questions": 60,
-  "replay": 140,
-  "train_steps": 180,
-  "lr": 2.5e-05,
+  "gen_questions": 160,
+  "replay": 160,
+  "train_steps": 150,
+  "lr": 1.5e-05,
   "cooldown_s": 60
 }
