@@ -1,0 +1,12 @@
+{"q": "The evacuation became mandatory, so what came on the TV?", "gold": "A", "gen": "advisory (A)", "source": "verified-self"}
+{"q": "The person gave a good hands on what to show how to do the work?", "gold": "A", "gen": "demonstration (A)", "source": "verified-self"}
+{"q": "Where would you see some people doing jumping jacks?", "gold": "A", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "The body guard was good at his duties, he made the person who hired him what?", "gold": "C", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "Learning languages is difficult.  Even in a full immersion environment you're likely to make mistake", "gold": "C", "gen": "frustration (C)", "source": "verified-self"}
+{"q": "Jim enjoyed killing people, but he did it too often and the cops found out.  What might the cops do ", "gold": "D", "gen": "get arrested (D)", "source": "verified-self"}
+{"q": "Where is there usually a fiddle playing?", "gold": "C", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "What is the only was to recover from exhaustion?", "gold": "B", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "What would you do if you want to be able to earn money?", "gold": "A", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}
+{"q": "What is a grumpy person likely to have?", "gold": "A", "gen": "headache (A)", "source": "verified-self"}
+{"q": "What do drugs do?", "gold": "E", "gen": "cause accidents (E)", "source": "verified-self"}
+{"q": "A beaver can destroy a machines functionality if they build their dam in this?", "gold": "C", "gen": "(no correct attempt -- hard-mined with gold)", "source": "hard-mined"}

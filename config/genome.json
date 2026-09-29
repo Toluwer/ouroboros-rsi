@@ -3,7 +3,6 @@
   "k": 3,
   "max_new_tokens": 90,
   "gen_questions": 60,
-  "rationalize_cap": 30,
   "replay": 140,
   "train_steps": 180,
   "lr": 1.5e-05,
