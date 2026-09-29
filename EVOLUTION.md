@@ -15,3 +15,4 @@ by more than 0.004 accuracy (constitution: `accept_margin`).
 | 1 | self-improve (sample 0 + rationalize 0, train 50 steps) | 0.300 | rolled back | incumbent kept |
 | 2 | self-improve (sample 0 + rationalize 0, train 50 steps) | 0.217 | rolled back | incumbent kept |
 | 3 | self-improve (sample 0 + rationalize 0, train 50 steps) | 0.317 | rolled back | incumbent kept |
+| 4 | self-improve (sample 0 + rationalize 0, train 50 steps) | 0.267 | rolled back | incumbent kept |
