@@ -1,0 +1,2249 @@
+{
+ "cycle": 9,
+ "eval": {
+  "accuracy": 0.396,
+  "correct": 99,
+  "n": 250,
+  "invalid_predictions": 0,
+  "seconds": 61.1,
+  "details": [
+   {
+    "q": "After working on the car, what did it end up doing?",
+    "gold": "E",
+    "pred": "D",
+    "gen": "go fast (D)",
+    "ok": false
+   },
+   {
+    "q": "Joe's cat smelled something delicious and jumped into this, causing him to panic",
+    "gold": "C",
+    "pred": "D",
+    "gen": "living room ",
+    "ok": false
+   },
+   {
+    "q": "What region of a west coast U.S. city would you find a Japanese restaurant?",
+    "gold": "C",
+    "pred": "A",
+    "gen": "california (",
+    "ok": false
+   },
+   {
+    "q": "His compressor needed a new hose, where did he go?",
+    "gold": "B",
+    "pred": "B",
+    "gen": "hardware sto",
+    "ok": true
+   },
+   {
+    "q": "If I want a new ottoman, where should I go?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "furniture st",
+    "ok": true
+   },
+   {
+    "q": "By learning about the world, many poor college students gain what?",
+    "gold": "C",
+    "pred": "B",
+    "gen": "greater mobi",
+    "ok": false
+   },
+   {
+    "q": "What would you use to find a place to stay?",
+    "gold": "B",
+    "pred": "C",
+    "gen": "town (C)",
+    "ok": false
+   },
+   {
+    "q": "A revolving door is convenient for two direction travel, but it also serves as a",
+    "gold": "A",
+    "pred": "D",
+    "gen": "mall (D)",
+    "ok": false
+   },
+   {
+    "q": "Because of his anger he couldn't clearly explain or what?",
+    "gold": "D",
+    "pred": "D",
+    "gen": "illustrate p",
+    "ok": true
+   },
+   {
+    "q": "Where does a heifer's master live?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "farm house (",
+    "ok": true
+   },
+   {
+    "q": "Where is a broadcast studio likely to be heard?",
+    "gold": "C",
+    "pred": "C",
+    "gen": "radio statio",
+    "ok": true
+   },
+   {
+    "q": "The man  tried to break the glass in order to make his escape in time, but he co",
+    "gold": "A",
+    "pred": "D",
+    "gen": "construct (D",
+    "ok": false
+   },
+   {
+    "q": "What is the habitat of the fox?",
+    "gold": "E",
+    "pred": "D",
+    "gen": "england (D)",
+    "ok": false
+   },
+   {
+    "q": "What could an apple tree do?",
+    "gold": "B",
+    "pred": "B",
+    "gen": "bloom (B)",
+    "ok": true
+   },
+   {
+    "q": "If I put in my key and open a hinged door, where am I likely entering?",
+    "gold": "C",
+    "pred": "A",
+    "gen": "kitchen (A)",
+    "ok": false
+   },
+   {
+    "q": "Where does one usually keep literature?",
+    "gold": "D",
+    "pred": "B",
+    "gen": "own home (B)",
+    "ok": false
+   },
+   {
+    "q": "What part of plants is pretty?",
+    "gold": "D",
+    "pred": "D",
+    "gen": "flowers on (",
+    "ok": true
+   },
+   {
+    "q": "You have to a lot of thinking while studying a new subject, but it is how you ga",
+    "gold": "E",
+    "pred": "E",
+    "gen": "knowledge (E",
+    "ok": true
+   },
+   {
+    "q": "What do audiences clap for?",
+    "gold": "D",
+    "pred": "C",
+    "gen": "movie (C)",
+    "ok": false
+   },
+   {
+    "q": "James was looking for a good place to buy farmland.  Where might he look?",
+    "gold": "A",
+    "pred": "C",
+    "gen": "estate (C)",
+    "ok": false
+   },
+   {
+    "q": "When a person admits his mistakes, what are they doing?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "act responsi",
+    "ok": true
+   },
+   {
+    "q": "Danny is having fun just dancing and singing with his friends. He wasn't concern",
+    "gold": "C",
+    "pred": "C",
+    "gen": "being happy ",
+    "ok": true
+   },
+   {
+    "q": "What do people do when they don't understand something?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "ask question",
+    "ok": true
+   },
+   {
+    "q": "What part of a table would you put a ruler in?",
+    "gold": "A",
+    "pred": "B",
+    "gen": "desk (B)",
+    "ok": false
+   },
+   {
+    "q": "James saw a kite flying in the sky.  He traced the string back to its origin and",
+    "gold": "E",
+    "pred": "A",
+    "gen": "end of line ",
+    "ok": false
+   },
+   {
+    "q": "WHat type of keyboard is made up of one or more pipe divisions?",
+    "gold": "E",
+    "pred": "B",
+    "gen": "typewriter (",
+    "ok": false
+   },
+   {
+    "q": "The town house went right to the curb, a slot effectively made a mailbox of the ",
+    "gold": "B",
+    "pred": "E",
+    "gen": "porch (E)",
+    "ok": false
+   },
+   {
+    "q": "Women used to be expected to wear a dress but it's now acceptable for them to we",
+    "gold": "B",
+    "pred": "A",
+    "gen": "man suit (A)",
+    "ok": false
+   },
+   {
+    "q": "A potato is kept in the cellar, where is likely to be stored?",
+    "gold": "D",
+    "pred": "E",
+    "gen": "fridge (E)",
+    "ok": false
+   },
+   {
+    "q": "What would you be building if you designed a place for an annoying critter to st",
+    "gold": "E",
+    "pred": "C",
+    "gen": "fly away (C)",
+    "ok": false
+   },
+   {
+    "q": "I house outside the center of a community is said to be where?",
+    "gold": "B",
+    "pred": "D",
+    "gen": "residential ",
+    "ok": false
+   },
+   {
+    "q": "A person with digestion issues eats a meat-filled breakfast, what does he feel?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "heartburn (A",
+    "ok": true
+   },
+   {
+    "q": "If you want harmony, what is something you should try to do with the world?",
+    "gold": "D",
+    "pred": "D",
+    "gen": "make peace (",
+    "ok": true
+   },
+   {
+    "q": "What is main benefit to exercising?",
+    "gold": "C",
+    "pred": "B",
+    "gen": "healthy (B)",
+    "ok": false
+   },
+   {
+    "q": "Where can you buy a clock, clothing and wrenches?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "department s",
+    "ok": true
+   },
+   {
+    "q": "What is someone doing when scheduling when to go to party?",
+    "gold": "E",
+    "pred": "B",
+    "gen": "meeting new ",
+    "ok": false
+   },
+   {
+    "q": "There was many a bottle to choose from behind the cashier where?",
+    "gold": "D",
+    "pred": "B",
+    "gen": "diaper bag (",
+    "ok": false
+   },
+   {
+    "q": "How can someone be let into a brownstone?",
+    "gold": "B",
+    "pred": "B",
+    "gen": "ring (B)",
+    "ok": true
+   },
+   {
+    "q": "The forest experienced a cold winter, where is it located?",
+    "gold": "D",
+    "pred": "C",
+    "gen": "amazon basin",
+    "ok": false
+   },
+   {
+    "q": "If you're going to a party in a new town what are you hoping to make?",
+    "gold": "B",
+    "pred": "B",
+    "gen": "making new f",
+    "ok": true
+   },
+   {
+    "q": "If I wanted to grow plants, where could I put a lot of dirt?",
+    "gold": "D",
+    "pred": "D",
+    "gen": "garden (D)",
+    "ok": true
+   },
+   {
+    "q": "It's dangerous to let pet birds free so it's better to keep them what?",
+    "gold": "C",
+    "pred": "C",
+    "gen": "caged in (C)",
+    "ok": true
+   },
+   {
+    "q": "The man got a pail to catch the draining motor oil, where was he likely doing th",
+    "gold": "A",
+    "pred": "B",
+    "gen": "hardware sto",
+    "ok": false
+   },
+   {
+    "q": "To see new films you must?",
+    "gold": "B",
+    "pred": "A",
+    "gen": "open eyes (A",
+    "ok": false
+   },
+   {
+    "q": "Most items in retail stores are what even when they are on sale?",
+    "gold": "A",
+    "pred": "C",
+    "gen": "expensive (C",
+    "ok": false
+   },
+   {
+    "q": "Sally thought that competing wasn't worth the risk. If she pushed more what migh",
+    "gold": "E",
+    "pred": "A",
+    "gen": "pressure (A)",
+    "ok": false
+   },
+   {
+    "q": "If I wanted to eat something that is made from plants and needs to be washed, wh",
+    "gold": "A",
+    "pred": "D",
+    "gen": "leaves to ga",
+    "ok": false
+   },
+   {
+    "q": "I want to see a prepared slide up close, what would I use to help?",
+    "gold": "A",
+    "pred": "E",
+    "gen": "telescope (E",
+    "ok": false
+   },
+   {
+    "q": "For what entity should the government work?",
+    "gold": "A",
+    "pred": "B",
+    "gen": "democracy (B",
+    "ok": false
+   },
+   {
+    "q": "Her son scraped his knee, she fetched a bottle of peroxide from the what?",
+    "gold": "E",
+    "pred": "C",
+    "gen": "liquor store",
+    "ok": false
+   },
+   {
+    "q": "The man tried to reply to the woman, but he had difficulty keeping track of conv",
+    "gold": "A",
+    "pred": "E",
+    "gen": "ask (E)",
+    "ok": false
+   },
+   {
+    "q": "If someone found out their brother was having a daughter, they would have to add",
+    "gold": "D",
+    "pred": "B",
+    "gen": "family reuni",
+    "ok": false
+   },
+   {
+    "q": "What do people feel after having sex that requires them to shower?",
+    "gold": "E",
+    "pred": "B",
+    "gen": "pleasant (B)",
+    "ok": false
+   },
+   {
+    "q": "He had no issue committing perjury, he had a what that he would get away with it",
+    "gold": "A",
+    "pred": "D",
+    "gen": "lying (D)",
+    "ok": false
+   },
+   {
+    "q": "What might a person be watching if they see a man with a suitcase full of money?",
+    "gold": "B",
+    "pred": "B",
+    "gen": "movie (B)",
+    "ok": true
+   },
+   {
+    "q": "Where do you throw a ball at pins?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "bowling alle",
+    "ok": true
+   },
+   {
+    "q": "What is likely to happen to someone who is learning?",
+    "gold": "C",
+    "pred": "D",
+    "gen": "head grows l",
+    "ok": false
+   },
+   {
+    "q": "Computers have allowed everybody to answer questions they have quickly, but stil",
+    "gold": "B",
+    "pred": "C",
+    "gen": "produ sound ",
+    "ok": false
+   },
+   {
+    "q": "Sometimes a person has a fear of water or a dislike of being wet, it is still im",
+    "gold": "E",
+    "pred": "B",
+    "gen": "drowning (B)",
+    "ok": false
+   },
+   {
+    "q": "Joe and Mac were playing basketball. They did it every day in their back yard.  ",
+    "gold": "B",
+    "pred": "B",
+    "gen": "have fun (B)",
+    "ok": true
+   },
+   {
+    "q": "The teacher played on the upright piano, she was explaining the song to all the ",
+    "gold": "A",
+    "pred": "A",
+    "gen": "music room (",
+    "ok": true
+   },
+   {
+    "q": "Competing can lead to great highs, and also great lows when suffering what?",
+    "gold": "D",
+    "pred": "D",
+    "gen": "defeat (D)",
+    "ok": true
+   },
+   {
+    "q": "James and Holly went dancing together. As they danced, he  pressed himself again",
+    "gold": "B",
+    "pred": "A",
+    "gen": "euphoria (A)",
+    "ok": false
+   },
+   {
+    "q": "Pens, computers, text books and paper clips can all be found where?",
+    "gold": "B",
+    "pred": "B",
+    "gen": "university (",
+    "ok": true
+   },
+   {
+    "q": "How would you express information if you do not have a pen or pencil?",
+    "gold": "D",
+    "pred": "A",
+    "gen": "may disagree",
+    "ok": false
+   },
+   {
+    "q": "The old man needed to have rest multiple times a day, he would do what on the co",
+    "gold": "E",
+    "pred": "A",
+    "gen": "lay in bed (",
+    "ok": false
+   },
+   {
+    "q": "James decided that competing was the right choice.   Not competing has a defined",
+    "gold": "A",
+    "pred": "A",
+    "gen": "might win (A",
+    "ok": true
+   },
+   {
+    "q": "What is a philosopher waiting for to eventually gain through his studies?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "wisdom (E)",
+    "ok": true
+   },
+   {
+    "q": "The surgeon's clients had begun to reduce, it seemed girls no longer want to wha",
+    "gold": "C",
+    "pred": "D",
+    "gen": "gain weight ",
+    "ok": false
+   },
+   {
+    "q": "What can machines do that humans cannot?",
+    "gold": "E",
+    "pred": "C",
+    "gen": "answer quest",
+    "ok": false
+   },
+   {
+    "q": "The janitor never had much to clean after services, but there was still always a",
+    "gold": "A",
+    "pred": "A",
+    "gen": "synagogue (A",
+    "ok": true
+   },
+   {
+    "q": "Where would you find a basement that can be accessed with an elevator?",
+    "gold": "D",
+    "pred": "C",
+    "gen": "church (C)",
+    "ok": false
+   },
+   {
+    "q": "Where would you hear a violin along side many string and wind instruments?",
+    "gold": "C",
+    "pred": "E",
+    "gen": "music room (",
+    "ok": false
+   },
+   {
+    "q": "The runner was in third place, but he pushed harder and thought he might be able",
+    "gold": "D",
+    "pred": "C",
+    "gen": "get tired (C",
+    "ok": false
+   },
+   {
+    "q": "The juror was quite bored and zoning out but wanted to convey he was hearing tes",
+    "gold": "B",
+    "pred": "B",
+    "gen": "nodding (B)",
+    "ok": true
+   },
+   {
+    "q": "They children loved having a back yard, and the parents loved that it was a safe",
+    "gold": "B",
+    "pred": "D",
+    "gen": "roundabout (",
+    "ok": false
+   },
+   {
+    "q": "Where is a teacher likely to keep her clavichord?",
+    "gold": "D",
+    "pred": "D",
+    "gen": "music room (",
+    "ok": true
+   },
+   {
+    "q": "What type of fruit is easily broken in to sections?",
+    "gold": "B",
+    "pred": "B",
+    "gen": "citrus (B)",
+    "ok": true
+   },
+   {
+    "q": "Where can you store your dishes in your dwelling?",
+    "gold": "B",
+    "pred": "C",
+    "gen": "pantry (C)",
+    "ok": false
+   },
+   {
+    "q": "They were never going to be big actors, but they all had passion for the local w",
+    "gold": "A",
+    "pred": "B",
+    "gen": "opera (B)",
+    "ok": false
+   },
+   {
+    "q": "What can happen if you are buying products that someone else does not want you t",
+    "gold": "B",
+    "pred": "C",
+    "gen": "agony (C)",
+    "ok": false
+   },
+   {
+    "q": "Where would you use a folding chair but not store one?",
+    "gold": "A",
+    "pred": "C",
+    "gen": "closet (C)",
+    "ok": false
+   },
+   {
+    "q": "If you turn off the music in a room with no other noise that room would be what?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "silent (A)",
+    "ok": true
+   },
+   {
+    "q": "What is someone doing if he or she is sitting quietly and his or her eyes are mo",
+    "gold": "A",
+    "pred": "B",
+    "gen": "meditate (B)",
+    "ok": false
+   },
+   {
+    "q": "The earth is one planet in what?",
+    "gold": "C",
+    "pred": "C",
+    "gen": "solar system",
+    "ok": true
+   },
+   {
+    "q": "If you are hungry and going fishing, why would you be going fishing?",
+    "gold": "C",
+    "pred": "C",
+    "gen": "catching fis",
+    "ok": true
+   },
+   {
+    "q": "Reading newspaper one of many ways to practice your what?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "literacy (A)",
+    "ok": true
+   },
+   {
+    "q": "Why does someone want to examine thing closely?",
+    "gold": "B",
+    "pred": "E",
+    "gen": "interesting ",
+    "ok": false
+   },
+   {
+    "q": "He picked up the perfect pebble, he planned to skip it across the entire small w",
+    "gold": "D",
+    "pred": "D",
+    "gen": "pond (D)",
+    "ok": true
+   },
+   {
+    "q": "After recovering from the disease, what did the doctor call the patient?",
+    "gold": "A",
+    "pred": "E",
+    "gen": "healthy (E)",
+    "ok": false
+   },
+   {
+    "q": "They wanted to try blowfish, so they went to get some where?",
+    "gold": "E",
+    "pred": "C",
+    "gen": "france (C)",
+    "ok": false
+   },
+   {
+    "q": "He was at the gym trying to build muscle, what is it called that he is trying to",
+    "gold": "E",
+    "pred": "C",
+    "gen": "bodybuilder ",
+    "ok": false
+   },
+   {
+    "q": "Who watches a play in an auditorium?",
+    "gold": "B",
+    "pred": "E",
+    "gen": "high school ",
+    "ok": false
+   },
+   {
+    "q": "What green area is a marmot likely to be found in?",
+    "gold": "A",
+    "pred": "B",
+    "gen": "great plains",
+    "ok": false
+   },
+   {
+    "q": "Where would you get some wood if you do not have any?",
+    "gold": "D",
+    "pred": "A",
+    "gen": "carpet (A)",
+    "ok": false
+   },
+   {
+    "q": "Bart entered his horse into the contest.  Where did he do this?",
+    "gold": "E",
+    "pred": "A",
+    "gen": "circus (A)",
+    "ok": false
+   },
+   {
+    "q": "Athletes soak in hot tubs to relieve what after playing baseball?",
+    "gold": "E",
+    "pred": "D",
+    "gen": "strikes (D)",
+    "ok": false
+   },
+   {
+    "q": "Where can you find a snake in tall grass?",
+    "gold": "D",
+    "pred": "C",
+    "gen": "pet shops (C",
+    "ok": false
+   },
+   {
+    "q": "While waiting for this appointment, people often read magazines.",
+    "gold": "A",
+    "pred": "B",
+    "gen": "train statio",
+    "ok": false
+   },
+   {
+    "q": "The old style pop ups literally let you see the story when you did what?",
+    "gold": "C",
+    "pred": "C",
+    "gen": "open book (C",
+    "ok": true
+   },
+   {
+    "q": "Where would you put a net if you wanted to use it?",
+    "gold": "D",
+    "pred": "D",
+    "gen": "fishing boat",
+    "ok": true
+   },
+   {
+    "q": "He wanted lodging in the actual what, so that he was already where he needed to ",
+    "gold": "B",
+    "pred": "B",
+    "gen": "resort area ",
+    "ok": true
+   },
+   {
+    "q": "Exercise is very good for you, for faster recovery you should always do what aft",
+    "gold": "A",
+    "pred": "E",
+    "gen": "expend energ",
+    "ok": false
+   },
+   {
+    "q": "The coach decided to make a lineup change, the team's effort was suffering from ",
+    "gold": "B",
+    "pred": "B",
+    "gen": "stagnation (",
+    "ok": true
+   },
+   {
+    "q": "Joe was thrown from his boat into the water.  The water was cold because it was ",
+    "gold": "D",
+    "pred": "C",
+    "gen": "snowflake (C",
+    "ok": false
+   },
+   {
+    "q": "How is riding a bike getting it to move?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "pedalling (E",
+    "ok": true
+   },
+   {
+    "q": "If the kitten was going to grow up to be a mouser like it's mother, where should",
+    "gold": "D",
+    "pred": "A",
+    "gen": "shelter (A)",
+    "ok": false
+   },
+   {
+    "q": "Where would you find a monkey in the wild?",
+    "gold": "E",
+    "pred": "C",
+    "gen": "research lab",
+    "ok": false
+   },
+   {
+    "q": "Joan wants to cook a potato, where should she place it?",
+    "gold": "A",
+    "pred": "E",
+    "gen": "cupboard (E)",
+    "ok": false
+   },
+   {
+    "q": "The two played video games all night in the living room, he enjoyed visiting whe",
+    "gold": "B",
+    "pred": "D",
+    "gen": "home (D)",
+    "ok": false
+   },
+   {
+    "q": "To what do trees roots cling?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "surface of e",
+    "ok": true
+   },
+   {
+    "q": "If you have a child who gets in trouble for being hyperactive you may need to te",
+    "gold": "B",
+    "pred": "B",
+    "gen": "calm (B)",
+    "ok": true
+   },
+   {
+    "q": "While people just throw coins down them now, what originally had a pail to be lo",
+    "gold": "D",
+    "pred": "B",
+    "gen": "utility room",
+    "ok": false
+   },
+   {
+    "q": "If I was getting drunk, and people couldn't understand me, what might I be havin",
+    "gold": "B",
+    "pred": "E",
+    "gen": "pass out (E)",
+    "ok": false
+   },
+   {
+    "q": "The student explained he had a clue what neuroepithelium was and got really nerv",
+    "gold": "C",
+    "pred": "E",
+    "gen": "sensory nerv",
+    "ok": false
+   },
+   {
+    "q": "Applying for a job can make someone feel what sort of emotion, even if they get ",
+    "gold": "E",
+    "pred": "C",
+    "gen": "rejection (C",
+    "ok": false
+   },
+   {
+    "q": "James loved to surf but he wasn't good at it. He would always do what?",
+    "gold": "A",
+    "pred": "B",
+    "gen": "enjoy yourse",
+    "ok": false
+   },
+   {
+    "q": "Where would you get a shower curtain if you do not have one?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "department s",
+    "ok": true
+   },
+   {
+    "q": "Most people make stupid assumptions that are based on their prejudices.  What mi",
+    "gold": "B",
+    "pred": "B",
+    "gen": "think (B)",
+    "ok": true
+   },
+   {
+    "q": "What type of feeling is performing for the first time likely to produce?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "anxiety (E)",
+    "ok": true
+   },
+   {
+    "q": "Joe and Jill didn't want their children to be sedentary.  They might limit the t",
+    "gold": "D",
+    "pred": "A",
+    "gen": "play sports ",
+    "ok": false
+   },
+   {
+    "q": "While walking the student needed to store his writing insturment away, where did",
+    "gold": "E",
+    "pred": "A",
+    "gen": "desk drawer ",
+    "ok": false
+   },
+   {
+    "q": "Where is a public monument likely to be erected by a city?",
+    "gold": "A",
+    "pred": "D",
+    "gen": "cemetary (D)",
+    "ok": false
+   },
+   {
+    "q": "What do the feathers look like on birds found in the rainforest?",
+    "gold": "D",
+    "pred": "C",
+    "gen": "bright (C)",
+    "ok": false
+   },
+   {
+    "q": "What happens at soon as a living being is born?",
+    "gold": "B",
+    "pred": "D",
+    "gen": "die (D)",
+    "ok": false
+   },
+   {
+    "q": "What could go to a tennis court?",
+    "gold": "D",
+    "pred": "E",
+    "gen": "park (E)",
+    "ok": false
+   },
+   {
+    "q": "The electricity went out and everyone was shrouded in darkness.  They all remain",
+    "gold": "A",
+    "pred": "C",
+    "gen": "basement (C)",
+    "ok": false
+   },
+   {
+    "q": "What is a tactic used to interfere with learning about science?",
+    "gold": "D",
+    "pred": "D",
+    "gen": "intimidation",
+    "ok": true
+   },
+   {
+    "q": "A person with an allergy might be doing what if they awake suddenly?",
+    "gold": "E",
+    "pred": "D",
+    "gen": "yawn (D)",
+    "ok": false
+   },
+   {
+    "q": "Where could you find a shark before it was caught?",
+    "gold": "B",
+    "pred": "C",
+    "gen": "marine museu",
+    "ok": false
+   },
+   {
+    "q": "The person saw the mess his children made, what was his following reaction?",
+    "gold": "E",
+    "pred": "C",
+    "gen": "cry (C)",
+    "ok": false
+   },
+   {
+    "q": "Why would a small dog pant if it's hot outside?",
+    "gold": "C",
+    "pred": "A",
+    "gen": "outside (A)",
+    "ok": false
+   },
+   {
+    "q": "What very cold area in the east can a crab be found?",
+    "gold": "C",
+    "pred": "A",
+    "gen": "fish market ",
+    "ok": false
+   },
+   {
+    "q": "What southern U.S. state is know for having many swamps?",
+    "gold": "D",
+    "pred": "C",
+    "gen": "michigan (C)",
+    "ok": false
+   },
+   {
+    "q": "When is the worst time for having food?",
+    "gold": "B",
+    "pred": "D",
+    "gen": "weight gain ",
+    "ok": false
+   },
+   {
+    "q": "What would friends do if they need each others' help?",
+    "gold": "B",
+    "pred": "D",
+    "gen": "meet for lun",
+    "ok": false
+   },
+   {
+    "q": "What do you do in order to fly in airplane?",
+    "gold": "A",
+    "pred": "D",
+    "gen": "add gas (D)",
+    "ok": false
+   },
+   {
+    "q": "The child felt like it was all pretend, he didn't understand what?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "religion (E)",
+    "ok": true
+   },
+   {
+    "q": "John got his tax refund back.  He treated it like it was what?",
+    "gold": "C",
+    "pred": "C",
+    "gen": "free money (",
+    "ok": true
+   },
+   {
+    "q": "The audience listened to the orchestra play, where were they watching the perfor",
+    "gold": "A",
+    "pred": "A",
+    "gen": "concert hall",
+    "ok": true
+   },
+   {
+    "q": "He kept plugging away in his cubicle, it seemed he was the only person not calle",
+    "gold": "B",
+    "pred": "D",
+    "gen": "demonstratio",
+    "ok": false
+   },
+   {
+    "q": "What do humans do to other humans after death?",
+    "gold": "B",
+    "pred": "D",
+    "gen": "rebirth (D)",
+    "ok": false
+   },
+   {
+    "q": "Where would you borrow furniture if you do not have any?",
+    "gold": "B",
+    "pred": "C",
+    "gen": "apartment (C",
+    "ok": false
+   },
+   {
+    "q": "What would you put meat on top of to cook it?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "frying pan (",
+    "ok": true
+   },
+   {
+    "q": "Where would you be concerned about finding a cavity?",
+    "gold": "E",
+    "pred": "B",
+    "gen": "molar (B)",
+    "ok": false
+   },
+   {
+    "q": "The poor girls needed a light to see, what was the relationship between that lig",
+    "gold": "E",
+    "pred": "D",
+    "gen": "forceful (D)",
+    "ok": false
+   },
+   {
+    "q": "Hoping for a beautiful day, what did the clouds do that disappointed everyone?",
+    "gold": "B",
+    "pred": "D",
+    "gen": "overrated (D",
+    "ok": false
+   },
+   {
+    "q": "What is the best way to begin going into trance?",
+    "gold": "B",
+    "pred": "B",
+    "gen": "open eyes (B",
+    "ok": true
+   },
+   {
+    "q": "James was below the balloon.  He watched it rise.  What direction did he look in",
+    "gold": "E",
+    "pred": "E",
+    "gen": "upwards (E)",
+    "ok": true
+   },
+   {
+    "q": "People do many things to alleviate boredom.  If you can't get out of the house y",
+    "gold": "D",
+    "pred": "D",
+    "gen": "listen to mu",
+    "ok": true
+   },
+   {
+    "q": "What would use a musical instrument?",
+    "gold": "C",
+    "pred": "A",
+    "gen": "guitar (A)",
+    "ok": false
+   },
+   {
+    "q": "What could happen if someone is seeing new presents at a birthday party?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "excitement (",
+    "ok": true
+   },
+   {
+    "q": "Where can you find a number of wind instruments together in public?",
+    "gold": "E",
+    "pred": "D",
+    "gen": "music room (",
+    "ok": false
+   },
+   {
+    "q": "Where could you find a toilet that only friends can use?",
+    "gold": "D",
+    "pred": "E",
+    "gen": "hospital (E)",
+    "ok": false
+   },
+   {
+    "q": "She asked her little boy why, he replied that he didn't know and it was just wha",
+    "gold": "D",
+    "pred": "B",
+    "gen": "reason (B)",
+    "ok": false
+   },
+   {
+    "q": "Where does a child likely sit at a desk?",
+    "gold": "B",
+    "pred": "B",
+    "gen": "schoolroom (",
+    "ok": true
+   },
+   {
+    "q": "Seafood restaurants are used to draw tourists where?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "coastal citi",
+    "ok": true
+   },
+   {
+    "q": "What is someone operating a vehicle likely to be accused of after becoming inebr",
+    "gold": "D",
+    "pred": "D",
+    "gen": "drunk drivin",
+    "ok": true
+   },
+   {
+    "q": "Where would you hear a trumpet along with other instruments made from the same m",
+    "gold": "C",
+    "pred": "A",
+    "gen": "music store ",
+    "ok": false
+   },
+   {
+    "q": "The trucker plopped on the bench with a sense of relief, where did he arrive?",
+    "gold": "B",
+    "pred": "D",
+    "gen": "bus stop (D)",
+    "ok": false
+   },
+   {
+    "q": "Where can children play with animals?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "fairgrounds ",
+    "ok": true
+   },
+   {
+    "q": "What happens when to ice when it is in the sun?",
+    "gold": "B",
+    "pred": "B",
+    "gen": "melted (B)",
+    "ok": true
+   },
+   {
+    "q": "A creek could be located in the opposite for the city which is called what?",
+    "gold": "E",
+    "pred": "A",
+    "gen": "meadow (A)",
+    "ok": false
+   },
+   {
+    "q": "Where can you find a dogs house?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "found outsid",
+    "ok": true
+   },
+   {
+    "q": "I was apprehensive to buy the expensive equipment to play a game with so much wa",
+    "gold": "B",
+    "pred": "B",
+    "gen": "play golf (B",
+    "ok": true
+   },
+   {
+    "q": "Friday was James's 5th Anniversary.  They planned on going to bed early so that ",
+    "gold": "C",
+    "pred": "C",
+    "gen": "making love ",
+    "ok": true
+   },
+   {
+    "q": "What do they call the trash in Australia?",
+    "gold": "E",
+    "pred": "D",
+    "gen": "container (D",
+    "ok": false
+   },
+   {
+    "q": "Where would you find many varieties of plants including a rosebush?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "garden (E)",
+    "ok": true
+   },
+   {
+    "q": "The neighborhood had a great sense of community, there was always a crowd at the",
+    "gold": "E",
+    "pred": "A",
+    "gen": "stairwell (A",
+    "ok": false
+   },
+   {
+    "q": "Where does one store fabric in their own home?",
+    "gold": "A",
+    "pred": "D",
+    "gen": "clothing sto",
+    "ok": false
+   },
+   {
+    "q": "Where is a dining area likely to be small?",
+    "gold": "B",
+    "pred": "C",
+    "gen": "mall (C)",
+    "ok": false
+   },
+   {
+    "q": "If a lizard is fed by people every day, what has happened to it?",
+    "gold": "E",
+    "pred": "B",
+    "gen": "costa rica (",
+    "ok": false
+   },
+   {
+    "q": "I you believe in god, where will you go when you die?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "heaven (A)",
+    "ok": true
+   },
+   {
+    "q": "People are very much like the animals, but one thing has secured or dominance ov",
+    "gold": "B",
+    "pred": "B",
+    "gen": "make tools (",
+    "ok": true
+   },
+   {
+    "q": "Stark was just having fun, and he wasn't hurting anyone.  What might have he bee",
+    "gold": "B",
+    "pred": "A",
+    "gen": "painting his",
+    "ok": false
+   },
+   {
+    "q": "Where could you find hundreds of thousands of home?",
+    "gold": "D",
+    "pred": "D",
+    "gen": "city or town",
+    "ok": true
+   },
+   {
+    "q": "Where can many stores with clothing be found?",
+    "gold": "B",
+    "pred": "B",
+    "gen": "mall (B)",
+    "ok": true
+   },
+   {
+    "q": "The computer was difficult for he to understand at the store, so what did she si",
+    "gold": "E",
+    "pred": "E",
+    "gen": "demonstratio",
+    "ok": true
+   },
+   {
+    "q": "Where would you go to get some pamphlets if you want to own them?",
+    "gold": "A",
+    "pred": "E",
+    "gen": "library (E)",
+    "ok": false
+   },
+   {
+    "q": "The family finished dinner, the child's chore was to load the dirty dishes where",
+    "gold": "B",
+    "pred": "B",
+    "gen": "dishwasher (",
+    "ok": true
+   },
+   {
+    "q": "What could a driving car do to a pedestrian?",
+    "gold": "B",
+    "pred": "D",
+    "gen": "smoke (D)",
+    "ok": false
+   },
+   {
+    "q": "The fact that Joe was able to memorize the list in spite of his apparent  state ",
+    "gold": "A",
+    "pred": "D",
+    "gen": "concentrate ",
+    "ok": false
+   },
+   {
+    "q": "Where is known to be a wealth of information?",
+    "gold": "D",
+    "pred": "B",
+    "gen": "internet (B)",
+    "ok": false
+   },
+   {
+    "q": "Where would you keep a rug near your front door?",
+    "gold": "D",
+    "pred": "C",
+    "gen": "table (C)",
+    "ok": false
+   },
+   {
+    "q": "Where could you find only a few office?",
+    "gold": "C",
+    "pred": "A",
+    "gen": "skyscraper (",
+    "ok": false
+   },
+   {
+    "q": "Ficus can be planted in a yard to make summer more bearable, what sort of areas ",
+    "gold": "A",
+    "pred": "B",
+    "gen": "screened por",
+    "ok": false
+   },
+   {
+    "q": "Where do people get beer after a bit of gambling?",
+    "gold": "C",
+    "pred": "A",
+    "gen": "bottle (A)",
+    "ok": false
+   },
+   {
+    "q": "Who is a police officer likely to work for?",
+    "gold": "C",
+    "pred": "C",
+    "gen": "city (C)",
+    "ok": true
+   },
+   {
+    "q": "What is the feeling of one having fun?",
+    "gold": "B",
+    "pred": "B",
+    "gen": "pleasure (B)",
+    "ok": true
+   },
+   {
+    "q": "Despite the large crowds, how did the depressed man feel?",
+    "gold": "C",
+    "pred": "E",
+    "gen": "panic (E)",
+    "ok": false
+   },
+   {
+    "q": "The car was going from Alabama to New York, what was its goal?",
+    "gold": "A",
+    "pred": "C",
+    "gen": "heading nort",
+    "ok": false
+   },
+   {
+    "q": "If you jump in any of the oceans you will get?",
+    "gold": "B",
+    "pred": "D",
+    "gen": "very deep (D",
+    "ok": false
+   },
+   {
+    "q": "What is someone who isn't clever, bright, or competent called?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "stupid (E)",
+    "ok": true
+   },
+   {
+    "q": "They had a theory of what they could do in t he big game, so over and over they ",
+    "gold": "B",
+    "pred": "D",
+    "gen": "practical (D",
+    "ok": false
+   },
+   {
+    "q": "How can people fulfill their own calorie requirements?",
+    "gold": "B",
+    "pred": "B",
+    "gen": "eat themselv",
+    "ok": true
+   },
+   {
+    "q": "What is someone usually doing if someone else is talking to him or her?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "listening (A",
+    "ok": true
+   },
+   {
+    "q": "Where would you find a fox that is made up?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "fox (A)",
+    "ok": true
+   },
+   {
+    "q": "When a person with mental illness receives medication and therapy, what has happ",
+    "gold": "C",
+    "pred": "B",
+    "gen": "recur (B)",
+    "ok": false
+   },
+   {
+    "q": "Where might a lemur frolic in the market?",
+    "gold": "C",
+    "pred": "A",
+    "gen": "desert (A)",
+    "ok": false
+   },
+   {
+    "q": "Where is a good place to set a cup of coffee while relaxing?",
+    "gold": "D",
+    "pred": "A",
+    "gen": "coffee shop ",
+    "ok": false
+   },
+   {
+    "q": "What do singers need to do before a show?",
+    "gold": "A",
+    "pred": "B",
+    "gen": "use micropho",
+    "ok": false
+   },
+   {
+    "q": "The music was festive but why are the horses dancing in circles",
+    "gold": "A",
+    "pred": "A",
+    "gen": "carnival (A)",
+    "ok": true
+   },
+   {
+    "q": "What do most companies not want to have relative to demand?",
+    "gold": "A",
+    "pred": "C",
+    "gen": "stockpile (C",
+    "ok": false
+   },
+   {
+    "q": "What kind of place has a leader?",
+    "gold": "D",
+    "pred": "D",
+    "gen": "country (D)",
+    "ok": true
+   },
+   {
+    "q": "If I keep getting crumbs under my table, what should I put under it?",
+    "gold": "C",
+    "pred": "C",
+    "gen": "rug (C)",
+    "ok": true
+   },
+   {
+    "q": "Riding a bike for a long time can cause what?",
+    "gold": "B",
+    "pred": "C",
+    "gen": "falling down",
+    "ok": false
+   },
+   {
+    "q": "If someone is found to be committing murder, what did they do to someone?",
+    "gold": "B",
+    "pred": "E",
+    "gen": "go to jail (",
+    "ok": false
+   },
+   {
+    "q": "What is a place that has a bench nestled in trees?",
+    "gold": "A",
+    "pred": "B",
+    "gen": "bus stop (B)",
+    "ok": false
+   },
+   {
+    "q": "The business man was promoted recently, to celebrate he went where to buy an exp",
+    "gold": "B",
+    "pred": "D",
+    "gen": "jewelery box",
+    "ok": false
+   },
+   {
+    "q": "Where off the eastern U.S. would you find an anemone?",
+    "gold": "C",
+    "pred": "C",
+    "gen": "florida keys",
+    "ok": true
+   },
+   {
+    "q": "If you were looking for a blowfish, you wouldn't look on dry land, you'd look in",
+    "gold": "D",
+    "pred": "D",
+    "gen": "body of wate",
+    "ok": true
+   },
+   {
+    "q": "The bell rang, and the congregation began to what in to the church?",
+    "gold": "C",
+    "pred": "A",
+    "gen": "run away (A)",
+    "ok": false
+   },
+   {
+    "q": "What kind of feelings does buying presents for others create?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "make happy (",
+    "ok": true
+   },
+   {
+    "q": "He was on trial for obstructing justice, during which he made a questionable com",
+    "gold": "E",
+    "pred": "E",
+    "gen": "committing p",
+    "ok": true
+   },
+   {
+    "q": "The man was giving assistance to a pan handler in the streets, how did he give a",
+    "gold": "D",
+    "pred": "A",
+    "gen": "feeling good",
+    "ok": false
+   },
+   {
+    "q": "Farm land makes use of what?",
+    "gold": "D",
+    "pred": "D",
+    "gen": "farming area",
+    "ok": true
+   },
+   {
+    "q": "Alabama is full of different people, but they are all citizens of what?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "united state",
+    "ok": true
+   },
+   {
+    "q": "Where can you get a lizard to keep in your home?",
+    "gold": "C",
+    "pred": "C",
+    "gen": "pet shop (C)",
+    "ok": true
+   },
+   {
+    "q": "He needed more information to fix it, so he consulted the what?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "manual (E)",
+    "ok": true
+   },
+   {
+    "q": "What do you write letter in in America?",
+    "gold": "D",
+    "pred": "A",
+    "gen": "syllable (A)",
+    "ok": false
+   },
+   {
+    "q": "What do young boys do on the ice in the winter?",
+    "gold": "B",
+    "pred": "A",
+    "gen": "ski (A)",
+    "ok": false
+   },
+   {
+    "q": "The place where my linen closet is really needs repainting a light color as it o",
+    "gold": "D",
+    "pred": "E",
+    "gen": "bedroom (E)",
+    "ok": false
+   },
+   {
+    "q": "A child wants to play, what would they likely want?",
+    "gold": "C",
+    "pred": "C",
+    "gen": "play tag (C)",
+    "ok": true
+   },
+   {
+    "q": "What rubber toy filled with helium will make a child happy?",
+    "gold": "D",
+    "pred": "D",
+    "gen": "balloon (D)",
+    "ok": true
+   },
+   {
+    "q": "Where are horses judged on appearance?",
+    "gold": "B",
+    "pred": "B",
+    "gen": "fair (B)",
+    "ok": true
+   },
+   {
+    "q": "Where are required to carry books all day?",
+    "gold": "B",
+    "pred": "C",
+    "gen": "large city (",
+    "ok": false
+   },
+   {
+    "q": "The carpet was smelly and discouraged the league from playing there, where was t",
+    "gold": "C",
+    "pred": "C",
+    "gen": "bowling alle",
+    "ok": true
+   },
+   {
+    "q": "John was a bit think in the head, but he knew that he never saw the lady before.",
+    "gold": "C",
+    "pred": "C",
+    "gen": "unacquainted",
+    "ok": true
+   },
+   {
+    "q": "If I want to watch a movie without leaving my home what might I use?",
+    "gold": "C",
+    "pred": "C",
+    "gen": "television (",
+    "ok": true
+   },
+   {
+    "q": "He picked up his pace to a run, he wanted to do what?",
+    "gold": "E",
+    "pred": "C",
+    "gen": "get away fro",
+    "ok": false
+   },
+   {
+    "q": "What happens when airplane engines cut off and are unable to be restarted in fli",
+    "gold": "D",
+    "pred": "D",
+    "gen": "crash (D)",
+    "ok": true
+   },
+   {
+    "q": "How might a automobile get off a freeway?",
+    "gold": "A",
+    "pred": "C",
+    "gen": "driveway (C)",
+    "ok": false
+   },
+   {
+    "q": "What would you do if you have curiosity but are blind and paralyzed?",
+    "gold": "B",
+    "pred": "C",
+    "gen": "go somewhere",
+    "ok": false
+   },
+   {
+    "q": "What are you waiting alongside with when you're in a reception area?",
+    "gold": "D",
+    "pred": "E",
+    "gen": "hotel (E)",
+    "ok": false
+   },
+   {
+    "q": "Where are you when you're about to use your plane ticket?",
+    "gold": "C",
+    "pred": "C",
+    "gen": "airport (C)",
+    "ok": true
+   },
+   {
+    "q": "A great teacher can be what when you are attending school?",
+    "gold": "D",
+    "pred": "D",
+    "gen": "inspiration ",
+    "ok": true
+   },
+   {
+    "q": "Where are  you likely to find a hamburger?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "fast food re",
+    "ok": true
+   },
+   {
+    "q": "John was an aristocratic fox hunter.  Where might he live?",
+    "gold": "B",
+    "pred": "A",
+    "gen": "england (A)",
+    "ok": false
+   },
+   {
+    "q": "What kind of path do comets tend to have?",
+    "gold": "B",
+    "pred": "D",
+    "gen": "space (D)",
+    "ok": false
+   },
+   {
+    "q": "If you are awaking multiple times throughout the night because a lot is on your ",
+    "gold": "B",
+    "pred": "A",
+    "gen": "irritability",
+    "ok": false
+   },
+   {
+    "q": "What to kids do for boredom on a ramp?",
+    "gold": "E",
+    "pred": "E",
+    "gen": "skateboard (",
+    "ok": true
+   },
+   {
+    "q": "Where would you find people standing in a line outside?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "bus depot (A",
+    "ok": true
+   },
+   {
+    "q": "Sage loved communicating  He liked doing what with his peers?",
+    "gold": "A",
+    "pred": "E",
+    "gen": "learning (E)",
+    "ok": false
+   },
+   {
+    "q": "Where are there likely to be a variety of flats to choose from?",
+    "gold": "C",
+    "pred": "E",
+    "gen": "town (E)",
+    "ok": false
+   },
+   {
+    "q": "The boat passenger was explaining his fear of blowfish, but the captain figured ",
+    "gold": "E",
+    "pred": "D",
+    "gen": "france (D)",
+    "ok": false
+   },
+   {
+    "q": "If a person is using a computer to talk to their granddaughter, what might the c",
+    "gold": "C",
+    "pred": "E",
+    "gen": "headache (E)",
+    "ok": false
+   },
+   {
+    "q": "Blue read material outside of his comfort zone because he wanted to gain what?",
+    "gold": "A",
+    "pred": "A",
+    "gen": "new perspect",
+    "ok": true
+   },
+   {
+    "q": "He was beginning to regret taking the fight when he saw how what his opponent wa",
+    "gold": "D",
+    "pred": "B",
+    "gen": "joy (B)",
+    "ok": false
+   },
+   {
+    "q": "Many homes in this country are built around a courtyard. Where is it?",
+    "gold": "B",
+    "pred": "C",
+    "gen": "lawn (C)",
+    "ok": false
+   },
+   {
+    "q": "Billy saw a dog running from him and did his best to get away from it.  The leap",
+    "gold": "B",
+    "pred": "A",
+    "gen": "kennel (A)",
+    "ok": false
+   }
+  ]
+ },
+ "train": {
+  "steps": 120,
+  "lr": 8e-06,
+  "examples": 485
+ },
+ "generations": [
+  {
+   "q": "What does a virus primarily do to a person?",
+   "gold": "A",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "Where would you go if you didn't feel like baking a cake yourself?",
+   "gold": "C",
+   "gen": "bakery (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Where are floors kept clean for holy purposes?",
+   "gold": "E",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "Where will a bullet projectile be found during a war?",
+   "gold": "A",
+   "gen": "battle field (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What is a place that might not always have a queen?",
+   "gold": "C",
+   "gen": "castle (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What do you need to be to learn hard concepts?",
+   "gold": "B",
+   "gen": "intelligence (B)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Many addicts turn to exercise to deal with their addictions, this is because it is a healthy way to ",
+   "gold": "B",
+   "gen": "expend energy (B)",
+   "source": "verified-self"
+  },
+  {
+   "q": "A night owl is what you'd head at sunset and you'd hear a what at sunrise?",
+   "gold": "C",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "What place is not interesting to children?",
+   "gold": "A",
+   "gen": "classroom (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What do rich people like in terms of bagels?",
+   "gold": "C",
+   "gen": "plain (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "A shop will give you what for your purchases?",
+   "gold": "B",
+   "gen": "container (B)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Where is small knight likely to be found?",
+   "gold": "D",
+   "gen": "chess board (D)",
+   "source": "verified-self"
+  },
+  {
+   "q": "How can you get in shape if there is no land nearby?",
+   "gold": "A",
+   "gen": "swim (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What might a person receive from their boss if they do a poor job?",
+   "gold": "C",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "The cabinets were imported from the south. John bought they because he knew that they would look goo",
+   "gold": "A",
+   "gen": "kitchen (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What might two people competing get into?",
+   "gold": "C",
+   "gen": "argument (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What are ai machines known for doing?",
+   "gold": "D",
+   "gen": "answer questions (D)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What are ai machines known for doing?",
+   "gold": "D",
+   "gen": "answering questions (D)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Bob and Boris were standing in a queue at the grocery store.  They were standing in place.  The line",
+   "gold": "B",
+   "gen": "being annoyed (B)",
+   "source": "verified-self"
+  },
+  {
+   "q": "A blowfish lives free. He lives on his own. Where does he live?",
+   "gold": "C",
+   "gen": "great outdoors (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Where is a paper notice likely to be left on a house?",
+   "gold": "A",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "People are purposefully harming others, what trait are they exhibiting?",
+   "gold": "D",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "The child pounded his mitt in excitement while enjoying his first game in the bleachers where?",
+   "gold": "C",
+   "gen": "baseball stadium (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "After eating a dinner of uncooked chicken, what was felt by the poor man?",
+   "gold": "C",
+   "gen": "illness (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "The obsessive man was always washing hands, he had even done it so much once that it caused a what?",
+   "gold": "B",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "The person is laying on the beach, why would he do that?",
+   "gold": "A",
+   "gen": "sun himself (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "The spoiled child's playroom was massive, but only one of many rooms in the what?",
+   "gold": "A",
+   "gen": "big house (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "There's a lot to reproducing, but it begins and end with new life by giving what?",
+   "gold": "B",
+   "gen": "birth (B)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Where is known to always have snow?",
+   "gold": "B",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "What does someone want when having fun with their friends and trying to fit in?",
+   "gold": "A",
+   "gen": "being understood (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "The parents thought their children should learn teamwork, what were they signed up for?",
+   "gold": "B",
+   "gen": "play sports (B)",
+   "source": "verified-self"
+  },
+  {
+   "q": "If a human is sleepy what can they do to feel more alert?",
+   "gold": "D",
+   "gen": "drink coffee (D)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What is a place that could have hundreds of sporting goods store?",
+   "gold": "B",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "The little girl was raised selfish, she didn't even care when she was doing what?",
+   "gold": "C",
+   "gen": "being mean (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "People want to explore space, so what should they use to do it?",
+   "gold": "C",
+   "gen": "space shuttle (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Where might I find unusual varieties of roses?",
+   "gold": "A",
+   "gen": "botanic garden (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Where would you put a light?",
+   "gold": "B",
+   "gen": "desk (B)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What can happen to you when eating hamburger from someone that you do not know that does not happen ",
+   "gold": "E",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "When he touched the exposed wire he shouldn't have found it surprising that he got what?",
+   "gold": "B",
+   "gen": "shocked (B)",
+   "source": "verified-self"
+  },
+  {
+   "q": "If one sees a fox and is standing in a landlocked, southern state, where is this person?",
+   "gold": "E",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "The priest pushed for more orthodox behavior, what kind of behavior was he trying to stop?",
+   "gold": "B",
+   "gen": "heretical (B)",
+   "source": "verified-self"
+  },
+  {
+   "q": "When they got out of the car in the mountains he felt like he was breathing fresh air for the first ",
+   "gold": "E",
+   "gen": "breathe deeply (E)",
+   "source": "verified-self"
+  },
+  {
+   "q": "The cow would come outside even after the storm had passed, it wouldn't leave the what?",
+   "gold": "C",
+   "gen": "red barn (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Where would you get a contraceptive if you do not have one?",
+   "gold": "A",
+   "gen": "health center (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Where would a Martian find the Indian Ocean?",
+   "gold": "E",
+   "gen": "earth (E)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Where would a ficus plant brighten up a room?",
+   "gold": "E",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "The turkey needed to be kept from spoiling, what is useful in this situation?",
+   "gold": "B",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "Sam found a giant hole in the plain.  What might this hole be called?",
+   "gold": "B",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "If I have to keep track of how much oxygen there is, where am I?",
+   "gold": "D",
+   "gen": "space shuttle (D)",
+   "source": "verified-self"
+  },
+  {
+   "q": "The other passengers on the bus were quite loud, so he put on his headphones to relax and what?",
+   "gold": "C",
+   "gen": "listen to music (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "The person knew the police were after him, so what did he do?",
+   "gold": "C",
+   "gen": "prepare to go (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "After going for run you have a sense of what?",
+   "gold": "A",
+   "gen": "satisfaction (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "If you are fiddling through a music book when you should be playing, you probably dont have?",
+   "gold": "D",
+   "gen": "knowledge of music (D)",
+   "source": "verified-self"
+  },
+  {
+   "q": "In the movie a fragile man is causing accidents, his hope is to find a person opposite of him who is",
+   "gold": "B",
+   "gen": "unbreakable (B)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Where would you get a bass clarinet to take home?",
+   "gold": "C",
+   "gen": "music store (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What will you need to do to decide whether to be seeing artifacts?",
+   "gold": "C",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "Mary wasn't familiar with James, so she wasn't comfortable speaking with him. How might she come off",
+   "gold": "A",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "It was a vast complex, the launch pad was just one part of what?",
+   "gold": "C",
+   "gen": "space center (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "An electronics store had things damaged from the rain, where should these things be stored?",
+   "gold": "C",
+   "gen": "building (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "A lonely man committed suicide, why would he do that?",
+   "gold": "D",
+   "gen": "unhappy (D)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What might someone want to be if he or she is thick?",
+   "gold": "A",
+   "gen": "thin (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What might someone want to be if he or she is thick?",
+   "gold": "A",
+   "gen": "slender (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "He wore the wrong shoes while walking all day, now he has what on his heels and toes?",
+   "gold": "D",
+   "gen": "blisters (D)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What would release energy, but not mainly in your muscles?",
+   "gold": "B",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "If I am suffering from boredom, and I want to do something with a dictionary, what would help?",
+   "gold": "A",
+   "gen": "do crossword puzzle (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What is made out of only one piece?",
+   "gold": "C",
+   "gen": "puzzle box (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "When he was a small child he called the giraffe mascot a cow, it was a fond memory of the now defunc",
+   "gold": "A",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "He had a hard time finding the room on his schedule, it was on the second floor and he got lost in t",
+   "gold": "A",
+   "gen": "school (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Whether it's popped, grilled, or canned people like to what?",
+   "gold": "E",
+   "gen": "eat corn (E)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What happens to the conscience of someone who has been caught committing a murder?",
+   "gold": "E",
+   "gen": "feeling of guilt (E)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Having a car in the city seemed to be more trouble than it was worth, the man still had to walk to a",
+   "gold": "D",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "What is likely to be the goal of telling many people about a new organization?",
+   "gold": "B",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "Where can the legs of a stool be built?",
+   "gold": "C",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "How might people perceive someone they are scared of?",
+   "gold": "C",
+   "gen": "dangerous (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Where would a ticket help you to get to a different country?",
+   "gold": "A",
+   "gen": "train station (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What happens when someone is playing too aggressively?",
+   "gold": "C",
+   "gen": "injury (C)",
+   "source": "verified-self"
+  },
+  {
+   "q": "What are students trying to do?",
+   "gold": "D",
+   "gen": "further education (D)",
+   "source": "verified-self"
+  },
+  {
+   "q": "Where do farmers keep toothpicks?",
+   "gold": "A",
+   "gen": "mouth (A)",
+   "source": "verified-self"
+  },
+  {
+   "q": "The detective had to analyse all the clues, every little thing at the scene he had to what?",
+   "gold": "A",
+   "gen": "(no correct attempt -- hard-mined with gold)",
+   "source": "hard-mined"
+  },
+  {
+   "q": "A person with brown skin may share that skin with whom?",
+   "gold": "C",
+   "gen": "own family (C)",
+   "source": "verified-self"
+  }
+ ]
+}
